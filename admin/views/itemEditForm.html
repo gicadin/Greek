@@ -29,9 +29,21 @@
 
     <!-- Text input-->
     <div class="form-group">
-      <label class="col-md-4 control-label" for="category">Category</label>  
+      <label class="col-md-4 control-label" for="category">Category</label>
       <div class="col-md-4">
-      <input id="category" name="category" type="text" class="form-control input-md" value="<?php echo $item[3]; ?>">
+        <select id="category" name="category">
+
+          <?php
+
+          $count = count($categories);
+          for ($i = 0; $i < $count; $i++) {
+            $tmpValue = $categories[$i][1];
+            echo "<option value='$tmpValue'>$tmpValue</option>";
+          }
+          ?>
+
+        </select>
+        <!--<input id="category" name="category" type="text" class="form-control input-md">-->
       </div>
     </div>
 

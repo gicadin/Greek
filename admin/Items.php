@@ -48,84 +48,49 @@ class Items {
       break;
 
       default:
-      echo "Error - Class: Items  Function: controller";
+        echo "Error - Class: Items  Function: controller";
     }
 
   }
 
-  public function viewItems(){
+  private function viewItems(){
     
     $items = $this->db->viewItems();
+    include "views/items.php";
+    
+  }
 
-    echo "<table>";
+  private function viewItemsMenu(){
 
-    // Table Column names
-    $columnNames = $this->db->getColumnNames("items");
-    $count = count($columnNames); 
-    echo "<tr><th></th>";
-    for ($i = 1; $i < $count; $i++){
-      echo "<th>";
-      echo $columnNames[$i]; 
-      echo "</th>";
-
-    }
-    echo "</tr>";
-
-    // Item information
-    $count = count($items); 
-    for ($i = 0; $i < $count; $i++){
-      echo "<tr>";
-
-      // Checkbox
-      $tmpSku = $items[$i][1];
-      echo "<td>";
-      echo "<input class=checkbox type=checkbox value=$tmpSku>";
-      echo "</td>";
-
-      $count2 = count($items[$i]);
-      for ($j = 0; $j < $count2; $j++){
-        echo "<td>";
-        echo $items[$i][$j]; 
-        echo "</td>";
-      }
-      echo "</tr>";
-    }
-    echo "</table>";
+    include "views/itemsMenu.html";
 
   }
 
-  public function viewItemsMenu(){
+  private function viewAddItem(){
 
-    echo "<button type='button' id='addItemButton'> Add </button>";
-    echo "<button type='button' id='editItemButton'> Edit </button>";
-    echo "<button type='button' id='deleteItemButton'> Delete </button>";
-
+    $categories = $this->db->viewCategories();
+    include "views/itemAddForm.html";
   }
 
-  public function viewAddItem(){
-
-    include "views/addItemForm.html";
-  }
-
-  public function viewEditItem($target){
+  private function viewEditItem($target){
 
     $item = $this->db->viewItem($target);
-    include "views/editItemForm.html";
+    $categories = $this->db->viewCategories();
+    include "views/itemEditForm.html";
   }
 
-  public function addItem(){
+  private function addItem(){
 
     $this->db->addItem($_POST);
   }
 
-  public function editItem($target){
+  private function editItem($target){
     $this->db->updateItem($target, $_POST);
   }
 
 }
 
 ?>
-
 
 <!-- JavaScript Functions Below -->
 
@@ -173,8 +138,7 @@ $(document).ready(function(){
       }
     });
   });
-
-
+  
   $('#editItemButton').click(function(){
 
     var checkedValue = $('.checkbox:checked').val();
@@ -230,7 +194,7 @@ $(document).ready(function(){
     var data = $('#itemForm').serializeArray();
     data.push({'name' : "class", 'value' : 'Items' });
     data.push({'name' : "action", 'value' : 'edit'}); 
-    data.push({'name' : "target", 'value' : sku})
+    data.push({'name' : "target", 'value' : sku});
 
     console.log(data);
 

@@ -20,7 +20,7 @@ echo "<table>";
   echo "<tr>";
 
     // Checkbox
-    $tmpId = $categories[$i][0];
+    $tmpId = "category" . $categories[$i][0];
     echo "<td>";
       echo "<input class=checkbox type=checkbox value=$tmpId>";
       echo "</td>";

@@ -90,6 +90,13 @@ class Database {
 
   }
 
+  public function uncategorizeItem($sku){
+
+    $sql = "UPDATE items SET category = 'Uncategorized' WHERE sku = :sku";
+    $stmt = $this->db->prepare($sql);
+    $stmt->execute(array(":sku" => $sku));
+  }
+
   public function viewItems($category = null){
 
     if ( $category == null){
@@ -97,7 +104,8 @@ class Database {
       $stmt = $this->db->prepare($sql);
       $stmt->execute();
     } else {
-      $sql = "SELECT name, sku, price, category, menu, description, file_path FROM items WHERE category = :category";
+      $sql = "SELECT items.name, sku, price, category, menu, items.description, file_path 
+              FROM items LEFT JOIN categories ON items.category = categories.name WHERE categories.id = :category";
       $stmt = $this->db->prepare($sql);
       $stmt->execute(array(":category" => $category));
     }
@@ -121,34 +129,34 @@ class Database {
 
   }
 
-  public function deleteCategory($name){
+  public function deleteCategory($id){
 
-    $sql = "DELETE FROM categories WHERE name LIKE :name";
+    $sql = "DELETE FROM categories WHERE id = :id";
     $stmt = $this->db->prepare($sql);
-    $stmt->execute(array(":name" => $name));
+    $stmt->execute(array(":id" => $id));
 
   }
 
-  public function viewCategory($name){
+  public function viewCategory($id){
 
-    $sql = "SELECT id, name, description FROM categories WHERE name LIKE :name";
+    $sql = "SELECT id, name, description FROM categories WHERE id = :id";
     $stmt = $this->db->prepare($sql);
-    $stmt->execute(array(":name" => $name));
+    $stmt->execute(array(":id" => $id));
 
     return $stmt->fetch(PDO::FETCH_NUM);
   }
 
-  public function updateCategory($name, $category){
+  public function updateCategory($id, $category){
 
     if ( isset($category["name"])) {
       $category = array(
         $category["name"],
         $category["description"],
-        $name
+        $id
       );
     }
 
-    $sql = "UPDATE categories SET name = ?, description = ? WHERE name = ?";
+    $sql = "UPDATE categories SET name = ?, description = ? WHERE id = ?";
     $stmt = $this->db->prepare($sql);
     $stmt->execute($category);
 
@@ -191,8 +199,8 @@ class Database {
 
 }
 //
-//$tmparray = array( 
-//  "name" => "ItemLive", 
+//$tmparray = array(
+//  "name" => "ItemLive",
 //  "sku" => 125,
 //  "price" => 555,
 //  "category" => "burgers",
@@ -207,8 +215,8 @@ class Database {
 //$tmparray3 = array( "ItemLive", 128, 666, "burgers", "ItemLive", "ItemLive", "ItemLive"
 //  );
 //
-//$tmparray4 = array( 
-//  "name" => "The First Item", 
+//$tmparray4 = array(
+//  "name" => "The First Item",
 //  "sku" => 123,
 //  "price" => 777,
 //  "category" => "The First Item",
@@ -217,8 +225,8 @@ class Database {
 //  "file_path" => "The First Item"
 //);
 //
-//$tmparray5 = array( 
-//  "name" => "The First Item", 
+//$tmparray5 = array(
+//  "name" => "The First Item",
 //  "sku" => 129,
 //  "price" => 777,
 //  "category" => "The Second Item",

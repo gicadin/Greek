@@ -23,50 +23,17 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="Items.php" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/admin/Items.php">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="175">
-                    <caret line="74" column="28" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="Greek" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Categories.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/Categories.php">
+    <leaf>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-              <folding>
-                <element signature="n#viewCategoriesMenu#0;n#Categories#0;n#!!top" expanded="false" />
-                <element signature="n#viewCategories#0;n#Categories#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addItemForm.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/views/addItemForm.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,8 +42,8 @@
       <file leaf-file-name="Database.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/Database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="875">
-              <caret line="165" column="0" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+            <state relative-caret-position="-1150">
+              <caret line="198" column="0" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
               <folding>
                 <element signature="e#56#70#0#PHP" expanded="false" />
                 <element signature="e#250#309#0#PHP" expanded="false" />
@@ -85,71 +52,89 @@
                 <element signature="e#1187#1357#0#PHP" expanded="false" />
                 <element signature="e#1361#1629#0#PHP" expanded="false" />
                 <element signature="e#1633#2137#0#PHP" expanded="false" />
-                <element signature="e#2141#2653#0#PHP" expanded="false" />
-                <element signature="e#2657#2982#0#PHP" expanded="false" />
-                <element signature="e#2986#3172#0#PHP" expanded="false" />
-                <element signature="e#3176#3423#0#PHP" expanded="false" />
-                <element signature="e#3427#3781#0#PHP" expanded="false" />
-                <element signature="e#3785#3988#0#PHP" expanded="false" />
-                <element signature="e#4415#4629#0#PHP" expanded="false" />
-                <marker date="1458963996598" expanded="true" signature="999:1106" placeholder="INSERT INTO items... " />
-                <marker date="1458963996598" expanded="true" signature="1234:1268" placeholder="DELETE FROM " />
-                <marker date="1458963996598" expanded="true" signature="1406:1497" placeholder="SELECT name,... items" />
-                <marker date="1458963996598" expanded="true" signature="1948:2063" placeholder="UPDATE items... " />
-                <marker date="1458963996598" expanded="true" signature="2230:2304" placeholder="SELECT name,... items" />
-                <marker date="1458963996598" expanded="true" signature="2398:2499" placeholder="SELECT name,... items" />
-                <marker date="1458963996598" expanded="true" signature="2848:2906" placeholder="INSERT INTO categories... " />
-                <marker date="1458963996598" expanded="true" signature="3038:3082" placeholder="DELETE FROM " />
-                <marker date="1458963996598" expanded="true" signature="3226:3292" placeholder="SELECT name,... categories" />
-                <marker date="1458963996598" expanded="true" signature="3643:3690" placeholder="UPDATE categ... " />
-                <marker date="1458963996598" expanded="true" signature="3643:3705" placeholder="UPDATE categ... " />
-                <marker date="1458963996598" expanded="true" signature="3832:3876" placeholder="SELECT name,... categories" />
-                <marker date="1458963996598" expanded="true" signature="4069:4162" placeholder="SELECT * FRO... columns" />
-                <marker date="1458963996598" expanded="true" signature="4480:4518" placeholder="SELECT * FRO... admin" />
-                <marker date="1458963996598" expanded="false" signature="5573:5622" placeholder="..." />
+                <element signature="e#2141#2341#0#PHP" expanded="false" />
+                <element signature="e#2345#2946#0#PHP" expanded="false" />
+                <element signature="e#2950#3275#0#PHP" expanded="false" />
+                <element signature="e#3279#3452#0#PHP" expanded="false" />
+                <element signature="e#3456#3690#0#PHP" expanded="false" />
+                <element signature="e#3694#4042#0#PHP" expanded="false" />
+                <element signature="e#4046#4249#0#PHP" expanded="false" />
+                <element signature="e#4253#4672#0#PHP" expanded="false" />
+                <element signature="e#4676#4890#0#PHP" expanded="false" />
+                <marker date="1458985008384" expanded="true" signature="999:1106" placeholder="INSERT INTO items... " />
+                <marker date="1458985008384" expanded="true" signature="1234:1268" placeholder="DELETE FROM " />
+                <marker date="1458985008384" expanded="true" signature="1406:1497" placeholder="SELECT name,... items" />
+                <marker date="1458985008384" expanded="true" signature="1948:2063" placeholder="UPDATE items... " />
+                <marker date="1458985008384" expanded="true" signature="2194:2210" placeholder="UPDATE items... " />
+                <marker date="1458985008384" expanded="true" signature="2194:2254" placeholder="UPDATE items... " />
+                <marker date="1458985008384" expanded="true" signature="2434:2508" placeholder="SELECT name,... items" />
+                <marker date="1458985008384" expanded="true" signature="2602:2783" placeholder="SELECT name,... items" />
+                <marker date="1458985008384" expanded="true" signature="2602:2792" placeholder="SELECT items... items" />
+                <marker date="1458985008384" expanded="true" signature="3141:3199" placeholder="INSERT INTO categories... " />
+                <marker date="1458985008384" expanded="true" signature="3329:3364" placeholder="DELETE FROM " />
+                <marker date="1458985008384" expanded="true" signature="3329:3366" placeholder="DELETE FROM " />
+                <marker date="1458985008384" expanded="true" signature="3504:3561" placeholder="SELECT name,... categories" />
+                <marker date="1458985008384" expanded="true" signature="3504:3563" placeholder="SELECT id, n... categories" />
+                <marker date="1458985008384" expanded="true" signature="3906:3953" placeholder="UPDATE categ... " />
+                <marker date="1458985008384" expanded="true" signature="3906:3966" placeholder="UPDATE categ... " />
+                <marker date="1458985008384" expanded="true" signature="4093:4137" placeholder="SELECT name,... categories" />
+                <marker date="1458985008384" expanded="true" signature="4330:4423" placeholder="SELECT * FRO... columns" />
+                <marker date="1458985008384" expanded="true" signature="4741:4779" placeholder="SELECT * FRO... admin" />
+                <marker date="1458985008384" expanded="false" signature="5828:5877" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Body.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/Body.php">
+      <file leaf-file-name="Categories.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/Categories.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1025">
-              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+            <state relative-caret-position="347">
+              <caret line="241" column="26" selection-start-line="241" selection-start-column="26" selection-end-line="241" selection-end-column="26" />
+              <folding>
+                <element signature="n#viewCategoriesMenu#0;n#Categories#0;n#!!top" expanded="false" />
+                <element signature="n#viewCategories#0;n#Categories#0;n#!!top" expanded="false" />
+                <element signature="n#deleteCategory#0;n#Categories#0;n#!!top" expanded="false" />
+                <element signature="n#addCategory#0;n#Categories#0;n#!!top" expanded="false" />
+                <element signature="n#viewAddCategory#0;n#Categories#0;n#!!top" expanded="false" />
+                <element signature="n#editCategory#0;n#Categories#0;n#!!top" expanded="false" />
+                <element signature="n#viewEditCategory#0;n#Categories#0;n#!!top" expanded="false" />
+                <marker date="1458986144811" expanded="true" signature="2220:2233" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="categoriesMenu.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/views/categoriesMenu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="49" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InitDatabase.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/InitDatabase.php">
+      <file leaf-file-name="Items.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/Items.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-728">
-              <caret line="109" column="31" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
+            <state relative-caret-position="-401">
+              <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
               <folding>
-                <marker date="1458963253202" expanded="true" signature="1061:1087" placeholder="DROP TABLE I... " />
-                <marker date="1458963253202" expanded="true" signature="1093:1378" placeholder="CREATE TABLE... items" />
-                <marker date="1458963253202" expanded="true" signature="1384:1551" placeholder="INSERT INTO items... " />
-                <marker date="1458963253202" expanded="true" signature="1785:1816" placeholder="DROP TABLE I... " />
-                <marker date="1458963253202" expanded="true" signature="1822:1980" placeholder="CREATE TABLE... categories" />
-                <marker date="1458963253202" expanded="true" signature="1986:2090" placeholder="INSERT INTO categories... " />
-                <marker date="1458963253202" expanded="true" signature="2399:2425" placeholder="DROP TABLE I... " />
-                <marker date="1458963253202" expanded="true" signature="2431:2725" placeholder="CREATE TABLE... admin" />
-                <marker date="1458963253202" expanded="true" signature="2731:2901" placeholder="INSERT INTO admin... " />
-                <marker date="1458963253202" expanded="true" signature="3129:3155" placeholder="DROP TABLE I... " />
-                <marker date="1458963253202" expanded="true" signature="3161:3455" placeholder="CREATE TABLE... users" />
-                <marker date="1458963253202" expanded="true" signature="3461:3627" placeholder="INSERT INTO users... " />
+                <element signature="n#__construct#0;n#Items#0;n#!!top" expanded="false" />
+                <element signature="n#viewItems#0;n#Items#0;n#!!top" expanded="false" />
+                <element signature="n#viewItemsMenu#0;n#Items#0;n#!!top" expanded="false" />
+                <element signature="n#addItem#0;n#Items#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/index.php">
+      <file leaf-file-name="categoryItems.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/views/categoryItems.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+            <state relative-caret-position="50">
+              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -170,14 +155,21 @@
         <option value="$PROJECT_DIR$/admin/views/addItemForm.html" />
         <option value="$PROJECT_DIR$/admin/views/editItemForm.html" />
         <option value="$PROJECT_DIR$/admin/Body.php" />
-        <option value="$PROJECT_DIR$/admin/InitDatabase.php" />
-        <option value="$PROJECT_DIR$/admin/Items.php" />
         <option value="$PROJECT_DIR$/admin/index.php" />
-        <option value="$PROJECT_DIR$/admin/Database.php" />
         <option value="$PROJECT_DIR$/admin/views/categories.html" />
-        <option value="$PROJECT_DIR$/admin/Categories.php" />
         <option value="$PROJECT_DIR$/admin/views/categoriesMenu.html" />
         <option value="$PROJECT_DIR$/admin/views/items.html" />
+        <option value="$PROJECT_DIR$/admin/views/itemsMenu.html" />
+        <option value="$PROJECT_DIR$/admin/views/categoryAddForm.html" />
+        <option value="$PROJECT_DIR$/admin/views/categories.php" />
+        <option value="$PROJECT_DIR$/admin/views/categoryEditForm.html" />
+        <option value="$PROJECT_DIR$/admin/views/itemAddForm.html" />
+        <option value="$PROJECT_DIR$/admin/views/itemEditForm.html" />
+        <option value="$PROJECT_DIR$/admin/Items.php" />
+        <option value="$PROJECT_DIR$/admin/InitDatabase.php" />
+        <option value="$PROJECT_DIR$/admin/Database.php" />
+        <option value="$PROJECT_DIR$/admin/Categories.php" />
+        <option value="$PROJECT_DIR$/admin/views/categoryItems.php" />
       </list>
     </option>
   </component>
@@ -344,6 +336,7 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="full.screen.before.presentation.mode" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -402,26 +395,26 @@
       <option name="presentableId" value="Default" />
       <updated>1458932409892</updated>
       <workItem from="1458932412315" duration="11951000" />
-      <workItem from="1458961313064" duration="4233000" />
+      <workItem from="1458961313064" duration="20683000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16184000" />
+    <option name="totallyTimeSpent" value="32634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15260416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14791666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -432,6 +425,26 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15260416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -446,7 +459,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -458,6 +471,12 @@
           <folding>
             <element signature="n#viewCategoriesMenu#0;n#Categories#0;n#!!top" expanded="false" />
             <element signature="n#viewCategories#0;n#Categories#0;n#!!top" expanded="false" />
+            <element signature="n#deleteCategory#0;n#Categories#0;n#!!top" expanded="false" />
+            <element signature="n#addCategory#0;n#Categories#0;n#!!top" expanded="false" />
+            <element signature="n#viewAddCategory#0;n#Categories#0;n#!!top" expanded="false" />
+            <element signature="n#editCategory#0;n#Categories#0;n#!!top" expanded="false" />
+            <element signature="n#viewEditCategory#0;n#Categories#0;n#!!top" expanded="false" />
+            <marker date="1458986144811" expanded="true" signature="2220:2233" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -474,28 +493,35 @@
             <element signature="e#1187#1357#0#PHP" expanded="false" />
             <element signature="e#1361#1629#0#PHP" expanded="false" />
             <element signature="e#1633#2137#0#PHP" expanded="false" />
-            <element signature="e#2141#2653#0#PHP" expanded="false" />
-            <element signature="e#2657#2982#0#PHP" expanded="false" />
-            <element signature="e#2986#3172#0#PHP" expanded="false" />
-            <element signature="e#3176#3423#0#PHP" expanded="false" />
-            <element signature="e#3427#3781#0#PHP" expanded="false" />
-            <element signature="e#3785#3988#0#PHP" expanded="false" />
-            <element signature="e#4415#4629#0#PHP" expanded="false" />
-            <marker date="1458963996598" expanded="true" signature="999:1106" placeholder="INSERT INTO items... " />
-            <marker date="1458963996598" expanded="true" signature="1234:1268" placeholder="DELETE FROM " />
-            <marker date="1458963996598" expanded="true" signature="1406:1497" placeholder="SELECT name,... items" />
-            <marker date="1458963996598" expanded="true" signature="1948:2063" placeholder="UPDATE items... " />
-            <marker date="1458963996598" expanded="true" signature="2230:2304" placeholder="SELECT name,... items" />
-            <marker date="1458963996598" expanded="true" signature="2398:2499" placeholder="SELECT name,... items" />
-            <marker date="1458963996598" expanded="true" signature="2848:2906" placeholder="INSERT INTO categories... " />
-            <marker date="1458963996598" expanded="true" signature="3038:3082" placeholder="DELETE FROM " />
-            <marker date="1458963996598" expanded="true" signature="3226:3292" placeholder="SELECT name,... categories" />
-            <marker date="1458963996598" expanded="true" signature="3643:3690" placeholder="UPDATE categ... " />
-            <marker date="1458963996598" expanded="true" signature="3643:3705" placeholder="UPDATE categ... " />
-            <marker date="1458963996598" expanded="true" signature="3832:3876" placeholder="SELECT name,... categories" />
-            <marker date="1458963996598" expanded="true" signature="4069:4162" placeholder="SELECT * FRO... columns" />
-            <marker date="1458963996598" expanded="true" signature="4480:4518" placeholder="SELECT * FRO... admin" />
-            <marker date="1458963996598" expanded="false" signature="5573:5622" placeholder="..." />
+            <element signature="e#2141#2341#0#PHP" expanded="false" />
+            <element signature="e#2345#2946#0#PHP" expanded="false" />
+            <element signature="e#2950#3275#0#PHP" expanded="false" />
+            <element signature="e#3279#3452#0#PHP" expanded="false" />
+            <element signature="e#3456#3690#0#PHP" expanded="false" />
+            <element signature="e#3694#4042#0#PHP" expanded="false" />
+            <element signature="e#4046#4249#0#PHP" expanded="false" />
+            <element signature="e#4253#4672#0#PHP" expanded="false" />
+            <element signature="e#4676#4890#0#PHP" expanded="false" />
+            <marker date="1458985008384" expanded="true" signature="999:1106" placeholder="INSERT INTO items... " />
+            <marker date="1458985008384" expanded="true" signature="1234:1268" placeholder="DELETE FROM " />
+            <marker date="1458985008384" expanded="true" signature="1406:1497" placeholder="SELECT name,... items" />
+            <marker date="1458985008384" expanded="true" signature="1948:2063" placeholder="UPDATE items... " />
+            <marker date="1458985008384" expanded="true" signature="2194:2210" placeholder="UPDATE items... " />
+            <marker date="1458985008384" expanded="true" signature="2194:2254" placeholder="UPDATE items... " />
+            <marker date="1458985008384" expanded="true" signature="2434:2508" placeholder="SELECT name,... items" />
+            <marker date="1458985008384" expanded="true" signature="2602:2783" placeholder="SELECT name,... items" />
+            <marker date="1458985008384" expanded="true" signature="2602:2792" placeholder="SELECT items... items" />
+            <marker date="1458985008384" expanded="true" signature="3141:3199" placeholder="INSERT INTO categories... " />
+            <marker date="1458985008384" expanded="true" signature="3329:3364" placeholder="DELETE FROM " />
+            <marker date="1458985008384" expanded="true" signature="3329:3366" placeholder="DELETE FROM " />
+            <marker date="1458985008384" expanded="true" signature="3504:3561" placeholder="SELECT name,... categories" />
+            <marker date="1458985008384" expanded="true" signature="3504:3563" placeholder="SELECT id, n... categories" />
+            <marker date="1458985008384" expanded="true" signature="3906:3953" placeholder="UPDATE categ... " />
+            <marker date="1458985008384" expanded="true" signature="3906:3966" placeholder="UPDATE categ... " />
+            <marker date="1458985008384" expanded="true" signature="4093:4137" placeholder="SELECT name,... categories" />
+            <marker date="1458985008384" expanded="true" signature="4330:4423" placeholder="SELECT * FRO... columns" />
+            <marker date="1458985008384" expanded="true" signature="4741:4779" placeholder="SELECT * FRO... admin" />
+            <marker date="1458985008384" expanded="false" signature="5828:5877" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -513,18 +539,18 @@
         <state relative-caret-position="2775">
           <caret line="111" column="12" selection-start-line="111" selection-start-column="12" selection-end-line="111" selection-end-column="12" />
           <folding>
-            <marker date="1458963253202" expanded="true" signature="1061:1087" placeholder="DROP TABLE I... " />
-            <marker date="1458963253202" expanded="true" signature="1093:1378" placeholder="CREATE TABLE... items" />
-            <marker date="1458963253202" expanded="true" signature="1384:1551" placeholder="INSERT INTO items... " />
-            <marker date="1458963253202" expanded="true" signature="1785:1816" placeholder="DROP TABLE I... " />
-            <marker date="1458963253202" expanded="true" signature="1822:1980" placeholder="CREATE TABLE... categories" />
-            <marker date="1458963253202" expanded="true" signature="1986:2090" placeholder="INSERT INTO categories... " />
-            <marker date="1458963253202" expanded="true" signature="2399:2425" placeholder="DROP TABLE I... " />
-            <marker date="1458963253202" expanded="true" signature="2431:2725" placeholder="CREATE TABLE... admin" />
-            <marker date="1458963253202" expanded="true" signature="2731:2901" placeholder="INSERT INTO admin... " />
-            <marker date="1458963253202" expanded="true" signature="3129:3155" placeholder="DROP TABLE I... " />
-            <marker date="1458963253202" expanded="true" signature="3161:3455" placeholder="CREATE TABLE... users" />
-            <marker date="1458963253202" expanded="true" signature="3461:3627" placeholder="INSERT INTO users... " />
+            <marker date="1458982608285" expanded="true" signature="1061:1087" placeholder="DROP TABLE I... " />
+            <marker date="1458982608285" expanded="true" signature="1093:1378" placeholder="CREATE TABLE... items" />
+            <marker date="1458982608285" expanded="true" signature="1384:1551" placeholder="INSERT INTO items... " />
+            <marker date="1458982608285" expanded="true" signature="1785:1816" placeholder="DROP TABLE I... " />
+            <marker date="1458982608285" expanded="true" signature="1822:1980" placeholder="CREATE TABLE... categories" />
+            <marker date="1458982608285" expanded="true" signature="1986:2090" placeholder="INSERT INTO categories... " />
+            <marker date="1458982608285" expanded="true" signature="2399:2425" placeholder="DROP TABLE I... " />
+            <marker date="1458982608285" expanded="true" signature="2431:2725" placeholder="CREATE TABLE... admin" />
+            <marker date="1458982608285" expanded="true" signature="2731:2901" placeholder="INSERT INTO admin... " />
+            <marker date="1458982608285" expanded="true" signature="3129:3155" placeholder="DROP TABLE I... " />
+            <marker date="1458982608285" expanded="true" signature="3161:3455" placeholder="CREATE TABLE... users" />
+            <marker date="1458982608285" expanded="true" signature="3461:3627" placeholder="INSERT INTO users... " />
           </folding>
         </state>
       </provider>
@@ -533,7 +559,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1375">
           <caret line="55" column="18" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="51" />
-          <folding />
+          <folding>
+            <element signature="n#__construct#0;n#Items#0;n#!!top" expanded="false" />
+            <element signature="n#viewItems#0;n#Items#0;n#!!top" expanded="false" />
+            <element signature="n#viewItemsMenu#0;n#Items#0;n#!!top" expanded="false" />
+            <element signature="n#addItem#0;n#Items#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -544,111 +575,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/views/editItemForm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/InitDatabase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-728">
-          <caret line="109" column="31" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
-          <folding>
-            <marker date="1458963253202" expanded="true" signature="1061:1087" placeholder="DROP TABLE I... " />
-            <marker date="1458963253202" expanded="true" signature="1093:1378" placeholder="CREATE TABLE... items" />
-            <marker date="1458963253202" expanded="true" signature="1384:1551" placeholder="INSERT INTO items... " />
-            <marker date="1458963253202" expanded="true" signature="1785:1816" placeholder="DROP TABLE I... " />
-            <marker date="1458963253202" expanded="true" signature="1822:1980" placeholder="CREATE TABLE... categories" />
-            <marker date="1458963253202" expanded="true" signature="1986:2090" placeholder="INSERT INTO categories... " />
-            <marker date="1458963253202" expanded="true" signature="2399:2425" placeholder="DROP TABLE I... " />
-            <marker date="1458963253202" expanded="true" signature="2431:2725" placeholder="CREATE TABLE... admin" />
-            <marker date="1458963253202" expanded="true" signature="2731:2901" placeholder="INSERT INTO admin... " />
-            <marker date="1458963253202" expanded="true" signature="3129:3155" placeholder="DROP TABLE I... " />
-            <marker date="1458963253202" expanded="true" signature="3161:3455" placeholder="CREATE TABLE... users" />
-            <marker date="1458963253202" expanded="true" signature="3461:3627" placeholder="INSERT INTO users... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/Body.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1025">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/Database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="165" column="0" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
-          <folding>
-            <element signature="e#56#70#0#PHP" expanded="false" />
-            <element signature="e#250#309#0#PHP" expanded="false" />
-            <element signature="e#339#636#0#PHP" expanded="false" />
-            <element signature="e#640#1183#0#PHP" expanded="false" />
-            <element signature="e#1187#1357#0#PHP" expanded="false" />
-            <element signature="e#1361#1629#0#PHP" expanded="false" />
-            <element signature="e#1633#2137#0#PHP" expanded="false" />
-            <element signature="e#2141#2653#0#PHP" expanded="false" />
-            <element signature="e#2657#2982#0#PHP" expanded="false" />
-            <element signature="e#2986#3172#0#PHP" expanded="false" />
-            <element signature="e#3176#3423#0#PHP" expanded="false" />
-            <element signature="e#3427#3781#0#PHP" expanded="false" />
-            <element signature="e#3785#3988#0#PHP" expanded="false" />
-            <element signature="e#4415#4629#0#PHP" expanded="false" />
-            <marker date="1458963996598" expanded="true" signature="999:1106" placeholder="INSERT INTO items... " />
-            <marker date="1458963996598" expanded="true" signature="1234:1268" placeholder="DELETE FROM " />
-            <marker date="1458963996598" expanded="true" signature="1406:1497" placeholder="SELECT name,... items" />
-            <marker date="1458963996598" expanded="true" signature="1948:2063" placeholder="UPDATE items... " />
-            <marker date="1458963996598" expanded="true" signature="2230:2304" placeholder="SELECT name,... items" />
-            <marker date="1458963996598" expanded="true" signature="2398:2499" placeholder="SELECT name,... items" />
-            <marker date="1458963996598" expanded="true" signature="2848:2906" placeholder="INSERT INTO categories... " />
-            <marker date="1458963996598" expanded="true" signature="3038:3082" placeholder="DELETE FROM " />
-            <marker date="1458963996598" expanded="true" signature="3226:3292" placeholder="SELECT name,... categories" />
-            <marker date="1458963996598" expanded="true" signature="3643:3690" placeholder="UPDATE categ... " />
-            <marker date="1458963996598" expanded="true" signature="3643:3705" placeholder="UPDATE categ... " />
-            <marker date="1458963996598" expanded="true" signature="3832:3876" placeholder="SELECT name,... categories" />
-            <marker date="1458963996598" expanded="true" signature="4069:4162" placeholder="SELECT * FRO... columns" />
-            <marker date="1458963996598" expanded="true" signature="4480:4518" placeholder="SELECT * FRO... admin" />
-            <marker date="1458963996598" expanded="false" signature="5573:5622" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/views/categories.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/Categories.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-          <folding>
-            <element signature="n#viewCategoriesMenu#0;n#Categories#0;n#!!top" expanded="false" />
-            <element signature="n#viewCategories#0;n#Categories#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/Items.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="74" column="28" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -661,10 +591,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/views/categoriesMenu.html">
+    <entry file="file://$PROJECT_DIR$/admin/views/itemsMenu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="57" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
+        <state relative-caret-position="50">
+          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
           <folding />
         </state>
       </provider>
@@ -673,6 +603,182 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/Body.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/categoryAddForm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/categoryEditForm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/categories.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/itemEditForm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/itemAddForm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/InitDatabase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="102" column="34" selection-start-line="102" selection-start-column="34" selection-end-line="102" selection-end-column="34" />
+          <folding>
+            <marker date="1458982608285" expanded="true" signature="1061:1087" placeholder="DROP TABLE I... " />
+            <marker date="1458982608285" expanded="true" signature="1093:1378" placeholder="CREATE TABLE... items" />
+            <marker date="1458982608285" expanded="true" signature="1384:1551" placeholder="INSERT INTO items... " />
+            <marker date="1458982608285" expanded="true" signature="1785:1816" placeholder="DROP TABLE I... " />
+            <marker date="1458982608285" expanded="true" signature="1822:1980" placeholder="CREATE TABLE... categories" />
+            <marker date="1458982608285" expanded="true" signature="1986:2090" placeholder="INSERT INTO categories... " />
+            <marker date="1458982608285" expanded="true" signature="2399:2425" placeholder="DROP TABLE I... " />
+            <marker date="1458982608285" expanded="true" signature="2431:2725" placeholder="CREATE TABLE... admin" />
+            <marker date="1458982608285" expanded="true" signature="2731:2901" placeholder="INSERT INTO admin... " />
+            <marker date="1458982608285" expanded="true" signature="3129:3155" placeholder="DROP TABLE I... " />
+            <marker date="1458982608285" expanded="true" signature="3161:3455" placeholder="CREATE TABLE... users" />
+            <marker date="1458982608285" expanded="true" signature="3461:3627" placeholder="INSERT INTO users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/items.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="35" column="18" selection-start-line="2" selection-start-column="2" selection-end-line="35" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/categoryItems.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1150">
+          <caret line="198" column="0" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+          <folding>
+            <element signature="e#56#70#0#PHP" expanded="false" />
+            <element signature="e#250#309#0#PHP" expanded="false" />
+            <element signature="e#339#636#0#PHP" expanded="false" />
+            <element signature="e#640#1183#0#PHP" expanded="false" />
+            <element signature="e#1187#1357#0#PHP" expanded="false" />
+            <element signature="e#1361#1629#0#PHP" expanded="false" />
+            <element signature="e#1633#2137#0#PHP" expanded="false" />
+            <element signature="e#2141#2341#0#PHP" expanded="false" />
+            <element signature="e#2345#2946#0#PHP" expanded="false" />
+            <element signature="e#2950#3275#0#PHP" expanded="false" />
+            <element signature="e#3279#3452#0#PHP" expanded="false" />
+            <element signature="e#3456#3690#0#PHP" expanded="false" />
+            <element signature="e#3694#4042#0#PHP" expanded="false" />
+            <element signature="e#4046#4249#0#PHP" expanded="false" />
+            <element signature="e#4253#4672#0#PHP" expanded="false" />
+            <element signature="e#4676#4890#0#PHP" expanded="false" />
+            <marker date="1458985008384" expanded="true" signature="999:1106" placeholder="INSERT INTO items... " />
+            <marker date="1458985008384" expanded="true" signature="1234:1268" placeholder="DELETE FROM " />
+            <marker date="1458985008384" expanded="true" signature="1406:1497" placeholder="SELECT name,... items" />
+            <marker date="1458985008384" expanded="true" signature="1948:2063" placeholder="UPDATE items... " />
+            <marker date="1458985008384" expanded="true" signature="2194:2210" placeholder="UPDATE items... " />
+            <marker date="1458985008384" expanded="true" signature="2194:2254" placeholder="UPDATE items... " />
+            <marker date="1458985008384" expanded="true" signature="2434:2508" placeholder="SELECT name,... items" />
+            <marker date="1458985008384" expanded="true" signature="2602:2783" placeholder="SELECT name,... items" />
+            <marker date="1458985008384" expanded="true" signature="2602:2792" placeholder="SELECT items... items" />
+            <marker date="1458985008384" expanded="true" signature="3141:3199" placeholder="INSERT INTO categories... " />
+            <marker date="1458985008384" expanded="true" signature="3329:3364" placeholder="DELETE FROM " />
+            <marker date="1458985008384" expanded="true" signature="3329:3366" placeholder="DELETE FROM " />
+            <marker date="1458985008384" expanded="true" signature="3504:3561" placeholder="SELECT name,... categories" />
+            <marker date="1458985008384" expanded="true" signature="3504:3563" placeholder="SELECT id, n... categories" />
+            <marker date="1458985008384" expanded="true" signature="3906:3953" placeholder="UPDATE categ... " />
+            <marker date="1458985008384" expanded="true" signature="3906:3966" placeholder="UPDATE categ... " />
+            <marker date="1458985008384" expanded="true" signature="4093:4137" placeholder="SELECT name,... categories" />
+            <marker date="1458985008384" expanded="true" signature="4330:4423" placeholder="SELECT * FRO... columns" />
+            <marker date="1458985008384" expanded="true" signature="4741:4779" placeholder="SELECT * FRO... admin" />
+            <marker date="1458985008384" expanded="false" signature="5828:5877" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/Categories.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="241" column="26" selection-start-line="241" selection-start-column="26" selection-end-line="241" selection-end-column="26" />
+          <folding>
+            <element signature="n#viewCategoriesMenu#0;n#Categories#0;n#!!top" expanded="false" />
+            <element signature="n#viewCategories#0;n#Categories#0;n#!!top" expanded="false" />
+            <element signature="n#deleteCategory#0;n#Categories#0;n#!!top" expanded="false" />
+            <element signature="n#addCategory#0;n#Categories#0;n#!!top" expanded="false" />
+            <element signature="n#viewAddCategory#0;n#Categories#0;n#!!top" expanded="false" />
+            <element signature="n#editCategory#0;n#Categories#0;n#!!top" expanded="false" />
+            <element signature="n#viewEditCategory#0;n#Categories#0;n#!!top" expanded="false" />
+            <marker date="1458986144811" expanded="true" signature="2220:2233" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/categoriesMenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/Items.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-401">
+          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+          <folding>
+            <element signature="n#__construct#0;n#Items#0;n#!!top" expanded="false" />
+            <element signature="n#viewItems#0;n#Items#0;n#!!top" expanded="false" />
+            <element signature="n#viewItemsMenu#0;n#Items#0;n#!!top" expanded="false" />
+            <element signature="n#addItem#0;n#Items#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>

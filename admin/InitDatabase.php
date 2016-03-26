@@ -99,7 +99,7 @@ class InitDatabase{
     );
     INSERT INTO categories VALUES (
       1,
-      'uncategorized',
+      'Uncategorized',
       'Default category for items'
     );
     ";
