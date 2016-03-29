@@ -1,20 +1,30 @@
 <?php
 
+ini_set("display_errors", "1");
+error_reporting(E_ALL);
+
+//if ( isset($_SESSION['username']))
+//  echo "Hello " . $_SESSION['username'] . "<br/>";
+
+require_once __DIR__ . '/../Libraries.php';
+require_once __DIR__ . '/../Database.php';
 require_once "Body.php";
-require_once __DIR__ . '/../Libraries.php'; 
-require_once "Database.php"; 
 require_once "Items.php";
 require_once "Categories.php";
+require_once "Login.php";
+require_once "Logout.php";
 
-if (isset($_POST['class'])){
-  //echo var_dump($_POST);
-  controller($_POST['class']);
+if (isset($_SESSION['username']) && $_SESSION['type'] = 'admin'){
+  if (isset($_POST['class'])){
+    //echo var_dump($_POST);
+    controller($_POST['class']);
+  }
+  else {
+    $body = new Body();
+  }
+} else {
+    $login = new Login();
 }
-else {
-  
-  $body = new Body();
-}
-
 
 function controller($class){
 
@@ -35,6 +45,11 @@ function controller($class){
       } else
         $categories->controller($_POST['action']);
 
+    break;
+
+    case "Logout":
+      $user = new Logout();
+      $login = new Login();
     break;
 
     default:

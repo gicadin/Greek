@@ -1,9 +1,5 @@
 <?php
 
-require_once __DIR__ . '/../Libraries.php'; 
-require_once "Database.php"; 
-require_once "Items.php";
-
 class Body {
 
   public function __construct(){
@@ -21,6 +17,8 @@ class Body {
     echo "<button type='button' id='itemsButton'> Items </button>";
     echo "<button type='button' id='categoriesButton'> Categories </button>";
     echo "<button type='button' id='usersButton'> Users </button>";
+
+    echo "<button type='button' id='logoutButton'> Logout </button>";
 
   }
 
@@ -82,6 +80,14 @@ $(document).ready(function(){
         alert("Categories button not good up");
       }
     });
+
+  });
+
+  $('#logoutButton').click(function(){
+
+    $('<form action="index.php" method="POST"> ' +
+      '<input type="hidden" name="class" value="Logout">' +
+      '</form>').submit();
 
   });
 });

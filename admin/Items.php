@@ -1,7 +1,5 @@
 <?php
 
-require_once __DIR__ . '/../Libraries.php'; 
-require_once "Database.php";
 
 class Items {
 
@@ -166,8 +164,8 @@ $(document).ready(function(){
 
     var data = $('#itemForm').serializeArray();
     data.push({'name' : "class", 'value' : 'Items' });
-    data.push({'name' : "action", 'value' : 'add'}); 
-    
+    data.push({'name' : "action", 'value' : 'add'});
+
     console.log(data);
 
     $.ajax({
@@ -178,12 +176,12 @@ $(document).ready(function(){
         console.log("Add Item button pressed");
         $("#content").html(response);
       },
-      error: function(xhr, status, error) {        
+      error: function(xhr, status, error) {
         alert("Add Item button error " );
       }
     });
 
-    e.preventDefault(); 
+    e.preventDefault();
 
   });
 
@@ -214,6 +212,26 @@ $(document).ready(function(){
     e.preventDefault(); 
 
   });
+
+//  $("#itemForm").submit(function(){
+//
+//    var formData = new FormData($(this)[0]);
+//
+//    $.ajax({
+//      url: "index.php",
+//      type: "POST",
+//      data: formData,
+//      async: false,
+//      success: function(data){
+//        alert(data);
+//      },
+//      cache: false,
+//      contentType: false,
+//      processData: false
+//    });
+//
+//    return false;
+//  });
 
 });
 
