@@ -8,17 +8,16 @@ class Body {
     $this->menu();
     $this->content();
     $this->footer();
-
     
   }
 
   private function menu(){
 
-    echo "<button type='button' id='itemsButton'> Items </button>";
-    echo "<button type='button' id='categoriesButton'> Categories </button>";
-    echo "<button type='button' id='usersButton'> Users </button>";
+    echo "<button type='button' id='admin_itemsButton'> Items </button>";
+    echo "<button type='button' id='admin_categoriesButton'> Categories </button>";
+    echo "<button type='button' id='admin_usersButton'> Users </button>";
 
-    echo "<button type='button' id='logoutButton'> Logout </button>";
+    echo "<button type='button' id='admin_logoutButton'> Logout </button>";
 
   }
 
@@ -43,7 +42,7 @@ class Body {
 <script>
 
 $(document).ready(function(){
-  $('#itemsButton').click(function(){
+  $('#admin_itemsButton').click(function(){
 
     $.ajax({
       type:"POST",
@@ -63,7 +62,7 @@ $(document).ready(function(){
 
   });
 
-  $('#categoriesButton').click(function(){
+  $('#admin_categoriesButton').click(function(){
 
     $.ajax({
       type:"POST",
@@ -83,7 +82,7 @@ $(document).ready(function(){
 
   });
 
-  $('#logoutButton').click(function(){
+  $('#admin_logoutButton').click(function(){
 
     $('<form action="index.php" method="POST"> ' +
       '<input type="hidden" name="class" value="Logout">' +

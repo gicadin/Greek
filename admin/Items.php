@@ -10,7 +10,6 @@ class Items {
 
     // $this->viewItemsMenu();
     // $this->viewItems();
-
   }
 
   public function controller($action, $target = NULL){
@@ -96,7 +95,7 @@ class Items {
 
 $(document).ready(function(){
 
-  $('#deleteItemButton').click(function(){
+  $('#admin_deleteItemButton').click(function(){
 
     var checkedValue = $('.checkbox:checked').val();
     console.log(checkedValue);
@@ -119,7 +118,7 @@ $(document).ready(function(){
     });
   });
 
-  $('#addItemButton').click(function(){
+  $('#admin_addItemButton').click(function(){
     $.ajax({
       type:"POST",
       url:"index.php",
@@ -137,7 +136,7 @@ $(document).ready(function(){
     });
   });
   
-  $('#editItemButton').click(function(){
+  $('#admin_editItemButton').click(function(){
 
     var checkedValue = $('.checkbox:checked').val();
     console.log(checkedValue);
@@ -160,7 +159,7 @@ $(document).ready(function(){
     });
   });
 
-  $('#addItemFormButton').click(function(e){
+  $('#admin_addItemFormButton').click(function(e){
 
     var data = $('#itemForm').serializeArray();
     data.push({'name' : "class", 'value' : 'Items' });
@@ -185,7 +184,7 @@ $(document).ready(function(){
 
   });
 
-  $('#editItemFormButton').click(function(e){
+  $('#admin_editItemFormButton').click(function(e){
 
     var sku = $("#current-sku").html();
 

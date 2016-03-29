@@ -51,7 +51,18 @@ class Database {
     $stmt->execute($item); 
    
   }
+  
+  public function addOrder($user, $order){
 
+    $sql = "INSERT INTO orders ( user, orders) VALUES ( :user, :orders);";
+    $stmt = $this->db->prepare($sql);
+
+    // Convert Array to String
+    $string = implode(",", $order);
+
+    $stmt->execute(array(":user" => $user, ":orders" => $string));
+  }
+  
   public function deleteItem($sku){
 
     $sql = "DELETE FROM items WHERE sku = :sku";
@@ -191,6 +202,14 @@ class Database {
 
   public function getAdmin($user){
     $stmt = $this->db->prepare("SELECT * FROM admin WHERE user = :user");
+    $stmt->bindParam(':user', $user);
+    $stmt->execute();
+
+    return $stmt->fetch(PDO::FETCH_ASSOC);
+  }
+  
+  public function getUser($user){
+    $stmt = $this->db->prepare("SELECT * FROM users WHERE user = :user");
     $stmt->bindParam(':user', $user);
     $stmt->execute();
 

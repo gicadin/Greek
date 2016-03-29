@@ -115,7 +115,7 @@ $(document).ready(function(){
 
   $('#deleteCategoryButton').click(function(){
 
-    var checkedValue = $('.checkbox:checked').val().slice(-1);
+    var checkedValue = $('.checkbox:checked').val().replace( /^\D+/g, '');
     console.log(checkedValue);
 
     $.ajax({
@@ -178,7 +178,7 @@ $(document).ready(function(){
 
   $('#editCategoryButton').click(function(e) {
 
-    var checkedValue = $('.checkbox:checked').val().slice(-1);
+    var checkedValue = $('.checkbox:checked').val().replace( /^\D+/g, '');
     console.log(checkedValue);
 
     $.ajax({
@@ -230,7 +230,8 @@ $(document).ready(function(){
 
   $('#viewItemsCategoryButton').click(function(e){
 
-    var checkedValue = $('.checkbox:checked').val().slice(-1);
+
+    var checkedValue = $('.checkbox:checked').val().replace( /^\D+/g, '');
     console.log(checkedValue);
 
     $.ajax({

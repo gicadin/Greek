@@ -14,7 +14,7 @@ require_once "Categories.php";
 require_once "Login.php";
 require_once "Logout.php";
 
-if (isset($_SESSION['username']) && $_SESSION['type'] = 'admin'){
+if (isset($_SESSION['username']) && isset($_SESSION['type']) && $_SESSION['type'] == 'admin'){
   if (isset($_POST['class'])){
     //echo var_dump($_POST);
     controller($_POST['class']);

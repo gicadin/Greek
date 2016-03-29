@@ -2,21 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1e26507-3a79-4f24-9568-6203ea108c81" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/Logout.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/authenticate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/config.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Body.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Logout.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Order.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/authenticate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/checkout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/loginForm.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/order.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/orderMenu.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Database.php" afterPath="$PROJECT_DIR$/Database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InitDatabase.php" afterPath="$PROJECT_DIR$/InitDatabase.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/Body.php" afterPath="$PROJECT_DIR$/admin/Body.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/Categories.php" afterPath="$PROJECT_DIR$/admin/Categories.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/Items.php" afterPath="$PROJECT_DIR$/admin/Items.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/Login.php" afterPath="$PROJECT_DIR$/admin/Login.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/index.php" afterPath="$PROJECT_DIR$/admin/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/views/loginForm.html" afterPath="$PROJECT_DIR$/admin/views/loginForm.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/Database.php" afterPath="$PROJECT_DIR$/Database.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/InitDatabase.php" afterPath="$PROJECT_DIR$/InitDatabase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/views/itemAddForm.html" afterPath="$PROJECT_DIR$/admin/views/itemAddForm.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/views/itemEditForm.html" afterPath="$PROJECT_DIR$/admin/views/itemEditForm.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/views/itemsMenu.html" afterPath="$PROJECT_DIR$/admin/views/itemsMenu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="Greek.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,56 +53,167 @@
       <file leaf-file-name="Database.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="100">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
               <folding>
                 <element signature="e#56#70#0#PHP" expanded="false" />
                 <element signature="e#250#309#0#PHP" expanded="false" />
                 <element signature="e#339#636#0#PHP" expanded="false" />
                 <element signature="e#640#1183#0#PHP" expanded="false" />
-                <element signature="e#1187#1357#0#PHP" expanded="false" />
-                <element signature="e#1361#1629#0#PHP" expanded="false" />
-                <element signature="e#1633#2137#0#PHP" expanded="false" />
-                <element signature="e#2141#2341#0#PHP" expanded="false" />
-                <element signature="e#2345#2946#0#PHP" expanded="false" />
-                <element signature="e#2950#3275#0#PHP" expanded="false" />
-                <element signature="e#3279#3452#0#PHP" expanded="false" />
-                <element signature="e#3456#3690#0#PHP" expanded="false" />
-                <element signature="e#3694#4042#0#PHP" expanded="false" />
-                <element signature="e#4046#4249#0#PHP" expanded="false" />
-                <element signature="e#4253#4672#0#PHP" expanded="false" />
-                <element signature="e#4676#4890#0#PHP" expanded="false" />
-                <marker date="1458985008384" expanded="true" signature="999:1106" placeholder="INSERT INTO items... " />
-                <marker date="1458985008384" expanded="true" signature="1234:1268" placeholder="DELETE FROM " />
-                <marker date="1458985008384" expanded="true" signature="1406:1497" placeholder="SELECT name,... items" />
-                <marker date="1458985008384" expanded="true" signature="1948:2063" placeholder="UPDATE items... " />
-                <marker date="1458985008384" expanded="true" signature="2194:2210" placeholder="UPDATE items... " />
-                <marker date="1458985008384" expanded="true" signature="2194:2254" placeholder="UPDATE items... " />
-                <marker date="1458985008384" expanded="true" signature="2434:2508" placeholder="SELECT name,... items" />
-                <marker date="1458985008384" expanded="true" signature="2602:2783" placeholder="SELECT name,... items" />
-                <marker date="1458985008384" expanded="true" signature="2602:2792" placeholder="SELECT items... items" />
-                <marker date="1458985008384" expanded="true" signature="3141:3199" placeholder="INSERT INTO categories... " />
-                <marker date="1458985008384" expanded="true" signature="3329:3364" placeholder="DELETE FROM " />
-                <marker date="1458985008384" expanded="true" signature="3329:3366" placeholder="DELETE FROM " />
-                <marker date="1458985008384" expanded="true" signature="3504:3561" placeholder="SELECT name,... categories" />
-                <marker date="1458985008384" expanded="true" signature="3504:3563" placeholder="SELECT id, n... categories" />
-                <marker date="1458985008384" expanded="true" signature="3906:3953" placeholder="UPDATE categ... " />
-                <marker date="1458985008384" expanded="true" signature="3906:3966" placeholder="UPDATE categ... " />
-                <marker date="1458985008384" expanded="true" signature="4093:4137" placeholder="SELECT name,... categories" />
-                <marker date="1458985008384" expanded="true" signature="4330:4423" placeholder="SELECT * FRO... columns" />
-                <marker date="1458985008384" expanded="true" signature="4741:4779" placeholder="SELECT * FRO... admin" />
-                <marker date="1458985008384" expanded="false" signature="5828:5877" placeholder="..." />
+                <element signature="e#1189#1483#0#PHP" expanded="false" />
+                <element signature="e#1489#1659#0#PHP" expanded="false" />
+                <element signature="e#1663#1931#0#PHP" expanded="false" />
+                <element signature="e#1935#2439#0#PHP" expanded="false" />
+                <element signature="e#2647#3248#0#PHP" expanded="false" />
+                <element signature="e#3252#3577#0#PHP" expanded="false" />
+                <element signature="e#3581#3754#0#PHP" expanded="false" />
+                <element signature="e#3758#3992#0#PHP" expanded="false" />
+                <element signature="e#3996#4344#0#PHP" expanded="false" />
+                <element signature="e#4348#4551#0#PHP" expanded="false" />
+                <element signature="e#4555#4974#0#PHP" expanded="false" />
+                <element signature="e#4978#5192#0#PHP" expanded="false" />
+                <element signature="e#5198#5411#0#PHP" expanded="false" />
+                <marker date="1459247775261" expanded="true" signature="999:1106" placeholder="INSERT INTO items... " />
+                <marker date="1459247775261" expanded="true" signature="1243:1293" placeholder="INSERT INTO orders... " />
+                <marker date="1459247775261" expanded="true" signature="1243:1302" placeholder="INSERT INTO orders... " />
+                <marker date="1459247775261" expanded="true" signature="1536:1570" placeholder="DELETE FROM " />
+                <marker date="1459247775261" expanded="true" signature="1708:1799" placeholder="SELECT name,... items" />
+                <marker date="1459247775261" expanded="true" signature="2250:2365" placeholder="UPDATE items... " />
+                <marker date="1459247775261" expanded="true" signature="2496:2512" placeholder="UPDATE items... " />
+                <marker date="1459247775261" expanded="true" signature="2496:2556" placeholder="UPDATE items... " />
+                <marker date="1459247775261" expanded="true" signature="2736:2810" placeholder="SELECT name,... items" />
+                <marker date="1459247775261" expanded="true" signature="2904:3085" placeholder="SELECT name,... items" />
+                <marker date="1459247775261" expanded="true" signature="2904:3094" placeholder="SELECT items... items" />
+                <marker date="1459247775261" expanded="true" signature="3443:3501" placeholder="INSERT INTO categories... " />
+                <marker date="1459247775261" expanded="true" signature="3631:3666" placeholder="DELETE FROM " />
+                <marker date="1459247775261" expanded="true" signature="3631:3668" placeholder="DELETE FROM " />
+                <marker date="1459247775261" expanded="true" signature="3806:3863" placeholder="SELECT name,... categories" />
+                <marker date="1459247775261" expanded="true" signature="3806:3865" placeholder="SELECT id, n... categories" />
+                <marker date="1459247775261" expanded="true" signature="4208:4255" placeholder="UPDATE categ... " />
+                <marker date="1459247775261" expanded="true" signature="4208:4268" placeholder="UPDATE categ... " />
+                <marker date="1459247775261" expanded="true" signature="4395:4439" placeholder="SELECT name,... categories" />
+                <marker date="1459247775261" expanded="true" signature="4632:4725" placeholder="SELECT * FRO... columns" />
+                <marker date="1459247775261" expanded="true" signature="5043:5081" placeholder="SELECT * FRO... admin" />
+                <marker date="1459247775261" expanded="true" signature="5262:5300" placeholder="SELECT * FRO... users" />
+                <marker date="1459247775261" expanded="false" signature="6349:6398" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+            <state relative-caret-position="200">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Items.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/Items.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="95" column="29" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="29" />
+              <folding>
+                <element signature="n#viewItems#0;n#Items#0;n#!!top" expanded="false" />
+                <element signature="n#viewItemsMenu#0;n#Items#0;n#!!top" expanded="false" />
+                <element signature="n#viewAddItem#0;n#Items#0;n#!!top" expanded="false" />
+                <element signature="n#viewEditItem#0;n#Items#0;n#!!top" expanded="false" />
+                <element signature="n#addItem#0;n#Items#0;n#!!top" expanded="false" />
+                <element signature="n#editItem#0;n#Items#0;n#!!top" expanded="false" />
+                <element signature="e#1648#2143#0#HTML" expanded="false" />
+                <element signature="e#2191#2542#0#HTML" expanded="false" />
+                <element signature="e#2593#3088#0#HTML" expanded="false" />
+                <element signature="e#3141#3659#0#HTML" expanded="false" />
+                <element signature="e#3713#4336#0#HTML" expanded="false" />
+                <element signature="e#4340#4377#0#HTML" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Body.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Body.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-631">
+              <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-150">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Categories.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/Categories.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-728">
+              <caret line="172" column="7" selection-start-line="172" selection-start-column="7" selection-end-line="172" selection-end-column="7" />
+              <folding>
+                <element signature="n#viewCategoriesMenu#0;n#Categories#0;n#!!top" expanded="false" />
+                <element signature="n#viewCategories#0;n#Categories#0;n#!!top" expanded="false" />
+                <element signature="n#deleteCategory#0;n#Categories#0;n#!!top" expanded="false" />
+                <element signature="n#addCategory#0;n#Categories#0;n#!!top" expanded="false" />
+                <element signature="n#viewAddCategory#0;n#Categories#0;n#!!top" expanded="false" />
+                <element signature="n#editCategory#0;n#Categories#0;n#!!top" expanded="false" />
+                <element signature="n#viewEditCategory#0;n#Categories#0;n#!!top" expanded="false" />
+                <marker date="1459239251374" expanded="true" signature="2232:2245" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Order.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Order.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-281">
+              <caret line="107" column="34" selection-start-line="107" selection-start-column="34" selection-end-line="107" selection-end-column="34" />
+              <folding>
+                <element signature="n#viewOrderMenu#0;n#Order#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InitDatabase.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InitDatabase.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="747">
+              <caret line="210" column="6" selection-start-line="210" selection-start-column="6" selection-end-line="210" selection-end-column="6" />
+              <folding>
+                <element signature="n#__construct#0;n#InitDatabase#0;n#!!top" expanded="false" />
+                <element signature="n#connect#0;n#InitDatabase#0;n#!!top" expanded="false" />
+                <element signature="n#createDatabase#0;n#InitDatabase#0;n#!!top" expanded="false" />
+                <element signature="n#createTables#0;n#InitDatabase#0;n#!!top" expanded="false" />
+                <element signature="n#createCategoriesTable#0;n#InitDatabase#0;n#!!top" expanded="false" />
+                <element signature="n#createAdminTable#0;n#InitDatabase#0;n#!!top" expanded="false" />
+                <element signature="n#createUsersTable#0;n#InitDatabase#0;n#!!top" expanded="false" />
+                <marker date="1459245575867" expanded="true" signature="1093:1119" placeholder="DROP TABLE I... " />
+                <marker date="1459245575867" expanded="true" signature="1125:1410" placeholder="CREATE TABLE... items" />
+                <marker date="1459245575867" expanded="true" signature="1416:1583" placeholder="INSERT INTO items... " />
+                <marker date="1459245575867" expanded="true" signature="1817:1848" placeholder="DROP TABLE I... " />
+                <marker date="1459245575867" expanded="true" signature="1854:2012" placeholder="CREATE TABLE... categories" />
+                <marker date="1459245575867" expanded="true" signature="2018:2122" placeholder="INSERT INTO categories... " />
+                <marker date="1459245575867" expanded="true" signature="2431:2457" placeholder="DROP TABLE I... " />
+                <marker date="1459245575867" expanded="true" signature="2463:2757" placeholder="CREATE TABLE... admin" />
+                <marker date="1459245575867" expanded="true" signature="2763:2933" placeholder="INSERT INTO admin... " />
+                <marker date="1459245575867" expanded="true" signature="3242:3268" placeholder="DROP TABLE I... " />
+                <marker date="1459245575867" expanded="true" signature="3274:3568" placeholder="CREATE TABLE... users" />
+                <marker date="1459245575867" expanded="true" signature="3574:3744" placeholder="INSERT INTO users... " />
+                <marker date="1459245575867" expanded="true" signature="3750:3916" placeholder="INSERT INTO users... " />
+                <marker date="1459245575867" expanded="true" signature="4144:4171" placeholder="DROP TABLE I... " />
+                <marker date="1459245575867" expanded="true" signature="4177:4318" placeholder="CREATE TABLE... orders" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,26 +238,36 @@
         <option value="$PROJECT_DIR$/admin/views/categories.html" />
         <option value="$PROJECT_DIR$/admin/views/categoriesMenu.html" />
         <option value="$PROJECT_DIR$/admin/views/items.html" />
-        <option value="$PROJECT_DIR$/admin/views/itemsMenu.html" />
         <option value="$PROJECT_DIR$/admin/views/categoryAddForm.html" />
         <option value="$PROJECT_DIR$/admin/views/categories.php" />
         <option value="$PROJECT_DIR$/admin/views/categoryEditForm.html" />
-        <option value="$PROJECT_DIR$/admin/views/itemAddForm.html" />
-        <option value="$PROJECT_DIR$/admin/views/itemEditForm.html" />
         <option value="$PROJECT_DIR$/admin/InitDatabase.php" />
         <option value="$PROJECT_DIR$/admin/Database.php" />
-        <option value="$PROJECT_DIR$/admin/Categories.php" />
         <option value="$PROJECT_DIR$/admin/views/categoryItems.php" />
         <option value="$PROJECT_DIR$/admin/config.php" />
         <option value="$PROJECT_DIR$/admin/views/index.php" />
         <option value="$PROJECT_DIR$/admin/Login.php" />
         <option value="$PROJECT_DIR$/admin/Logout.php" />
         <option value="$PROJECT_DIR$/admin/views/loginForm.html" />
-        <option value="$PROJECT_DIR$/admin/Body.php" />
-        <option value="$PROJECT_DIR$/admin/Items.php" />
-        <option value="$PROJECT_DIR$/admin/index.php" />
         <option value="$PROJECT_DIR$/admin/authenticate.php" />
+        <option value="$PROJECT_DIR$/admin/Body.php" />
+        <option value="$PROJECT_DIR$/admin/views/itemsMenu.html" />
+        <option value="$PROJECT_DIR$/admin/views/itemEditForm.html" />
+        <option value="$PROJECT_DIR$/admin/views/itemAddForm.html" />
+        <option value="$PROJECT_DIR$/admin/index.php" />
+        <option value="$PROJECT_DIR$/Login.php" />
+        <option value="$PROJECT_DIR$/authenticate.php" />
+        <option value="$PROJECT_DIR$/admin/Items.php" />
+        <option value="$PROJECT_DIR$/views/items.php" />
+        <option value="$PROJECT_DIR$/admin/Categories.php" />
+        <option value="$PROJECT_DIR$/views/order.php" />
+        <option value="$PROJECT_DIR$/views/orderMenu.html" />
+        <option value="$PROJECT_DIR$/views/checkout.html" />
+        <option value="$PROJECT_DIR$/InitDatabase.php" />
+        <option value="$PROJECT_DIR$/Body.php" />
+        <option value="$PROJECT_DIR$/Database.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/Order.php" />
       </list>
     </option>
   </component>
@@ -264,20 +390,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Greek" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Greek" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -293,6 +405,10 @@
     <property name="full.screen.before.presentation.mode" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Xamp\htdocs\Greek\views" />
+      <recent name="D:\Xamp\htdocs\Greek" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Xamp\htdocs\Greek" />
       <recent name="D:\Xamp\htdocs\Greek\admin" />
@@ -356,18 +472,18 @@
       <workItem from="1458961313064" duration="20683000" />
       <workItem from="1459017617917" duration="9390000" />
       <workItem from="1459104627745" duration="5716000" />
-      <workItem from="1459191597206" duration="16273000" />
+      <workItem from="1459191597206" duration="35197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64013000" />
+    <option name="totallyTimeSpent" value="82937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17083333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15450644" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -397,7 +513,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20210527" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17083333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -425,146 +541,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/Login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/Categories.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4900">
-          <caret line="227" column="0" selection-start-line="227" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
-          <folding>
-            <element signature="n#viewCategoriesMenu#0;n#Categories#0;n#!!top" expanded="false" />
-            <element signature="n#viewCategories#0;n#Categories#0;n#!!top" expanded="false" />
-            <element signature="n#deleteCategory#0;n#Categories#0;n#!!top" expanded="false" />
-            <element signature="n#addCategory#0;n#Categories#0;n#!!top" expanded="false" />
-            <element signature="n#viewAddCategory#0;n#Categories#0;n#!!top" expanded="false" />
-            <element signature="n#editCategory#0;n#Categories#0;n#!!top" expanded="false" />
-            <element signature="n#viewEditCategory#0;n#Categories#0;n#!!top" expanded="false" />
-            <marker date="1458986144811" expanded="true" signature="2220:2233" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/views/itemAddForm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/views/categoryItems.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="198" column="0" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
-          <folding>
-            <element signature="e#56#70#0#PHP" expanded="false" />
-            <element signature="e#250#309#0#PHP" expanded="false" />
-            <element signature="e#339#636#0#PHP" expanded="false" />
-            <element signature="e#640#1183#0#PHP" expanded="false" />
-            <element signature="e#1187#1357#0#PHP" expanded="false" />
-            <element signature="e#1361#1629#0#PHP" expanded="false" />
-            <element signature="e#1633#2137#0#PHP" expanded="false" />
-            <element signature="e#2141#2341#0#PHP" expanded="false" />
-            <element signature="e#2345#2946#0#PHP" expanded="false" />
-            <element signature="e#2950#3275#0#PHP" expanded="false" />
-            <element signature="e#3279#3452#0#PHP" expanded="false" />
-            <element signature="e#3456#3690#0#PHP" expanded="false" />
-            <element signature="e#3694#4042#0#PHP" expanded="false" />
-            <element signature="e#4046#4249#0#PHP" expanded="false" />
-            <element signature="e#4253#4672#0#PHP" expanded="false" />
-            <element signature="e#4676#4890#0#PHP" expanded="false" />
-            <marker date="1458985008384" expanded="true" signature="999:1106" placeholder="INSERT INTO items... " />
-            <marker date="1458985008384" expanded="true" signature="1234:1268" placeholder="DELETE FROM " />
-            <marker date="1458985008384" expanded="true" signature="1406:1497" placeholder="SELECT name,... items" />
-            <marker date="1458985008384" expanded="true" signature="1948:2063" placeholder="UPDATE items... " />
-            <marker date="1458985008384" expanded="true" signature="2194:2210" placeholder="UPDATE items... " />
-            <marker date="1458985008384" expanded="true" signature="2194:2254" placeholder="UPDATE items... " />
-            <marker date="1458985008384" expanded="true" signature="2434:2508" placeholder="SELECT name,... items" />
-            <marker date="1458985008384" expanded="true" signature="2602:2783" placeholder="SELECT name,... items" />
-            <marker date="1458985008384" expanded="true" signature="2602:2792" placeholder="SELECT items... items" />
-            <marker date="1458985008384" expanded="true" signature="3141:3199" placeholder="INSERT INTO categories... " />
-            <marker date="1458985008384" expanded="true" signature="3329:3364" placeholder="DELETE FROM " />
-            <marker date="1458985008384" expanded="true" signature="3329:3366" placeholder="DELETE FROM " />
-            <marker date="1458985008384" expanded="true" signature="3504:3561" placeholder="SELECT name,... categories" />
-            <marker date="1458985008384" expanded="true" signature="3504:3563" placeholder="SELECT id, n... categories" />
-            <marker date="1458985008384" expanded="true" signature="3906:3953" placeholder="UPDATE categ... " />
-            <marker date="1458985008384" expanded="true" signature="3906:3966" placeholder="UPDATE categ... " />
-            <marker date="1458985008384" expanded="true" signature="4093:4137" placeholder="SELECT name,... categories" />
-            <marker date="1458985008384" expanded="true" signature="4330:4423" placeholder="SELECT * FRO... columns" />
-            <marker date="1458985008384" expanded="true" signature="4741:4779" placeholder="SELECT * FRO... admin" />
-            <marker date="1458985008384" expanded="false" signature="5828:5877" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/Categories.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5250">
-          <caret line="241" column="26" selection-start-line="241" selection-start-column="26" selection-end-line="241" selection-end-column="26" />
-          <folding>
-            <element signature="n#viewCategoriesMenu#0;n#Categories#0;n#!!top" expanded="false" />
-            <element signature="n#viewCategories#0;n#Categories#0;n#!!top" expanded="false" />
-            <element signature="n#deleteCategory#0;n#Categories#0;n#!!top" expanded="false" />
-            <element signature="n#addCategory#0;n#Categories#0;n#!!top" expanded="false" />
-            <element signature="n#viewAddCategory#0;n#Categories#0;n#!!top" expanded="false" />
-            <element signature="n#editCategory#0;n#Categories#0;n#!!top" expanded="false" />
-            <element signature="n#viewEditCategory#0;n#Categories#0;n#!!top" expanded="false" />
-            <marker date="1458986144811" expanded="true" signature="2220:2233" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/views/categoriesMenu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="49" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/Items.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#__construct#0;n#Items#0;n#!!top" expanded="false" />
-            <element signature="n#controller#0;n#Items#0;n#!!top" expanded="false" />
-            <element signature="n#viewItems#0;n#Items#0;n#!!top" expanded="false" />
-            <element signature="n#viewItemsMenu#0;n#Items#0;n#!!top" expanded="false" />
-            <element signature="n#addItem#0;n#Items#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/views/itemAddForm.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -598,38 +574,42 @@
             <element signature="e#250#309#0#PHP" expanded="false" />
             <element signature="e#339#636#0#PHP" expanded="false" />
             <element signature="e#640#1183#0#PHP" expanded="false" />
-            <element signature="e#1187#1357#0#PHP" expanded="false" />
-            <element signature="e#1361#1629#0#PHP" expanded="false" />
-            <element signature="e#1633#2137#0#PHP" expanded="false" />
-            <element signature="e#2141#2341#0#PHP" expanded="false" />
-            <element signature="e#2345#2946#0#PHP" expanded="false" />
-            <element signature="e#2950#3275#0#PHP" expanded="false" />
-            <element signature="e#3279#3452#0#PHP" expanded="false" />
-            <element signature="e#3456#3690#0#PHP" expanded="false" />
-            <element signature="e#3694#4042#0#PHP" expanded="false" />
-            <element signature="e#4046#4249#0#PHP" expanded="false" />
-            <element signature="e#4253#4672#0#PHP" expanded="false" />
-            <element signature="e#4676#4890#0#PHP" expanded="false" />
-            <marker date="1458985008384" expanded="true" signature="999:1106" placeholder="INSERT INTO items... " />
-            <marker date="1458985008384" expanded="true" signature="1234:1268" placeholder="DELETE FROM " />
-            <marker date="1458985008384" expanded="true" signature="1406:1497" placeholder="SELECT name,... items" />
-            <marker date="1458985008384" expanded="true" signature="1948:2063" placeholder="UPDATE items... " />
-            <marker date="1458985008384" expanded="true" signature="2194:2210" placeholder="UPDATE items... " />
-            <marker date="1458985008384" expanded="true" signature="2194:2254" placeholder="UPDATE items... " />
-            <marker date="1458985008384" expanded="true" signature="2434:2508" placeholder="SELECT name,... items" />
-            <marker date="1458985008384" expanded="true" signature="2602:2783" placeholder="SELECT name,... items" />
-            <marker date="1458985008384" expanded="true" signature="2602:2792" placeholder="SELECT items... items" />
-            <marker date="1458985008384" expanded="true" signature="3141:3199" placeholder="INSERT INTO categories... " />
-            <marker date="1458985008384" expanded="true" signature="3329:3364" placeholder="DELETE FROM " />
-            <marker date="1458985008384" expanded="true" signature="3329:3366" placeholder="DELETE FROM " />
-            <marker date="1458985008384" expanded="true" signature="3504:3561" placeholder="SELECT name,... categories" />
-            <marker date="1458985008384" expanded="true" signature="3504:3563" placeholder="SELECT id, n... categories" />
-            <marker date="1458985008384" expanded="true" signature="3906:3953" placeholder="UPDATE categ... " />
-            <marker date="1458985008384" expanded="true" signature="3906:3966" placeholder="UPDATE categ... " />
-            <marker date="1458985008384" expanded="true" signature="4093:4137" placeholder="SELECT name,... categories" />
-            <marker date="1458985008384" expanded="true" signature="4330:4423" placeholder="SELECT * FRO... columns" />
-            <marker date="1458985008384" expanded="true" signature="4741:4779" placeholder="SELECT * FRO... admin" />
-            <marker date="1458985008384" expanded="false" signature="5828:5877" placeholder="..." />
+            <element signature="e#1189#1483#0#PHP" expanded="false" />
+            <element signature="e#1489#1659#0#PHP" expanded="false" />
+            <element signature="e#1663#1931#0#PHP" expanded="false" />
+            <element signature="e#1935#2439#0#PHP" expanded="false" />
+            <element signature="e#2647#3248#0#PHP" expanded="false" />
+            <element signature="e#3252#3577#0#PHP" expanded="false" />
+            <element signature="e#3581#3754#0#PHP" expanded="false" />
+            <element signature="e#3758#3992#0#PHP" expanded="false" />
+            <element signature="e#3996#4344#0#PHP" expanded="false" />
+            <element signature="e#4348#4551#0#PHP" expanded="false" />
+            <element signature="e#4555#4974#0#PHP" expanded="false" />
+            <element signature="e#4978#5192#0#PHP" expanded="false" />
+            <element signature="e#5198#5411#0#PHP" expanded="false" />
+            <marker date="1459247775261" expanded="true" signature="999:1106" placeholder="INSERT INTO items... " />
+            <marker date="1459247775261" expanded="true" signature="1243:1293" placeholder="INSERT INTO orders... " />
+            <marker date="1459247775261" expanded="true" signature="1243:1302" placeholder="INSERT INTO orders... " />
+            <marker date="1459247775261" expanded="true" signature="1536:1570" placeholder="DELETE FROM " />
+            <marker date="1459247775261" expanded="true" signature="1708:1799" placeholder="SELECT name,... items" />
+            <marker date="1459247775261" expanded="true" signature="2250:2365" placeholder="UPDATE items... " />
+            <marker date="1459247775261" expanded="true" signature="2496:2512" placeholder="UPDATE items... " />
+            <marker date="1459247775261" expanded="true" signature="2496:2556" placeholder="UPDATE items... " />
+            <marker date="1459247775261" expanded="true" signature="2736:2810" placeholder="SELECT name,... items" />
+            <marker date="1459247775261" expanded="true" signature="2904:3085" placeholder="SELECT name,... items" />
+            <marker date="1459247775261" expanded="true" signature="2904:3094" placeholder="SELECT items... items" />
+            <marker date="1459247775261" expanded="true" signature="3443:3501" placeholder="INSERT INTO categories... " />
+            <marker date="1459247775261" expanded="true" signature="3631:3666" placeholder="DELETE FROM " />
+            <marker date="1459247775261" expanded="true" signature="3631:3668" placeholder="DELETE FROM " />
+            <marker date="1459247775261" expanded="true" signature="3806:3863" placeholder="SELECT name,... categories" />
+            <marker date="1459247775261" expanded="true" signature="3806:3865" placeholder="SELECT id, n... categories" />
+            <marker date="1459247775261" expanded="true" signature="4208:4255" placeholder="UPDATE categ... " />
+            <marker date="1459247775261" expanded="true" signature="4208:4268" placeholder="UPDATE categ... " />
+            <marker date="1459247775261" expanded="true" signature="4395:4439" placeholder="SELECT name,... categories" />
+            <marker date="1459247775261" expanded="true" signature="4632:4725" placeholder="SELECT * FRO... columns" />
+            <marker date="1459247775261" expanded="true" signature="5043:5081" placeholder="SELECT * FRO... admin" />
+            <marker date="1459247775261" expanded="true" signature="5262:5300" placeholder="SELECT * FRO... users" />
+            <marker date="1459247775261" expanded="false" signature="6349:6398" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -646,7 +626,7 @@
             <element signature="n#viewAddCategory#0;n#Categories#0;n#!!top" expanded="false" />
             <element signature="n#editCategory#0;n#Categories#0;n#!!top" expanded="false" />
             <element signature="n#viewEditCategory#0;n#Categories#0;n#!!top" expanded="false" />
-            <marker date="1458986144811" expanded="true" signature="2220:2233" placeholder="{...}" />
+            <marker date="1459239251374" expanded="true" signature="2232:2245" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -655,6 +635,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="49" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -692,7 +673,7 @@
             <element signature="n#viewAddCategory#0;n#Categories#0;n#!!top" expanded="false" />
             <element signature="n#editCategory#0;n#Categories#0;n#!!top" expanded="false" />
             <element signature="n#viewEditCategory#0;n#Categories#0;n#!!top" expanded="false" />
-            <marker date="1458986144811" expanded="true" signature="2220:2233" placeholder="{...}" />
+            <marker date="1459239251374" expanded="true" signature="2232:2245" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -706,38 +687,42 @@
             <element signature="e#250#309#0#PHP" expanded="false" />
             <element signature="e#339#636#0#PHP" expanded="false" />
             <element signature="e#640#1183#0#PHP" expanded="false" />
-            <element signature="e#1187#1357#0#PHP" expanded="false" />
-            <element signature="e#1361#1629#0#PHP" expanded="false" />
-            <element signature="e#1633#2137#0#PHP" expanded="false" />
-            <element signature="e#2141#2341#0#PHP" expanded="false" />
-            <element signature="e#2345#2946#0#PHP" expanded="false" />
-            <element signature="e#2950#3275#0#PHP" expanded="false" />
-            <element signature="e#3279#3452#0#PHP" expanded="false" />
-            <element signature="e#3456#3690#0#PHP" expanded="false" />
-            <element signature="e#3694#4042#0#PHP" expanded="false" />
-            <element signature="e#4046#4249#0#PHP" expanded="false" />
-            <element signature="e#4253#4672#0#PHP" expanded="false" />
-            <element signature="e#4676#4890#0#PHP" expanded="false" />
-            <marker date="1458985008384" expanded="true" signature="999:1106" placeholder="INSERT INTO items... " />
-            <marker date="1458985008384" expanded="true" signature="1234:1268" placeholder="DELETE FROM " />
-            <marker date="1458985008384" expanded="true" signature="1406:1497" placeholder="SELECT name,... items" />
-            <marker date="1458985008384" expanded="true" signature="1948:2063" placeholder="UPDATE items... " />
-            <marker date="1458985008384" expanded="true" signature="2194:2210" placeholder="UPDATE items... " />
-            <marker date="1458985008384" expanded="true" signature="2194:2254" placeholder="UPDATE items... " />
-            <marker date="1458985008384" expanded="true" signature="2434:2508" placeholder="SELECT name,... items" />
-            <marker date="1458985008384" expanded="true" signature="2602:2783" placeholder="SELECT name,... items" />
-            <marker date="1458985008384" expanded="true" signature="2602:2792" placeholder="SELECT items... items" />
-            <marker date="1458985008384" expanded="true" signature="3141:3199" placeholder="INSERT INTO categories... " />
-            <marker date="1458985008384" expanded="true" signature="3329:3364" placeholder="DELETE FROM " />
-            <marker date="1458985008384" expanded="true" signature="3329:3366" placeholder="DELETE FROM " />
-            <marker date="1458985008384" expanded="true" signature="3504:3561" placeholder="SELECT name,... categories" />
-            <marker date="1458985008384" expanded="true" signature="3504:3563" placeholder="SELECT id, n... categories" />
-            <marker date="1458985008384" expanded="true" signature="3906:3953" placeholder="UPDATE categ... " />
-            <marker date="1458985008384" expanded="true" signature="3906:3966" placeholder="UPDATE categ... " />
-            <marker date="1458985008384" expanded="true" signature="4093:4137" placeholder="SELECT name,... categories" />
-            <marker date="1458985008384" expanded="true" signature="4330:4423" placeholder="SELECT * FRO... columns" />
-            <marker date="1458985008384" expanded="true" signature="4741:4779" placeholder="SELECT * FRO... admin" />
-            <marker date="1458985008384" expanded="false" signature="5828:5877" placeholder="..." />
+            <element signature="e#1189#1483#0#PHP" expanded="false" />
+            <element signature="e#1489#1659#0#PHP" expanded="false" />
+            <element signature="e#1663#1931#0#PHP" expanded="false" />
+            <element signature="e#1935#2439#0#PHP" expanded="false" />
+            <element signature="e#2647#3248#0#PHP" expanded="false" />
+            <element signature="e#3252#3577#0#PHP" expanded="false" />
+            <element signature="e#3581#3754#0#PHP" expanded="false" />
+            <element signature="e#3758#3992#0#PHP" expanded="false" />
+            <element signature="e#3996#4344#0#PHP" expanded="false" />
+            <element signature="e#4348#4551#0#PHP" expanded="false" />
+            <element signature="e#4555#4974#0#PHP" expanded="false" />
+            <element signature="e#4978#5192#0#PHP" expanded="false" />
+            <element signature="e#5198#5411#0#PHP" expanded="false" />
+            <marker date="1459247775261" expanded="true" signature="999:1106" placeholder="INSERT INTO items... " />
+            <marker date="1459247775261" expanded="true" signature="1243:1293" placeholder="INSERT INTO orders... " />
+            <marker date="1459247775261" expanded="true" signature="1243:1302" placeholder="INSERT INTO orders... " />
+            <marker date="1459247775261" expanded="true" signature="1536:1570" placeholder="DELETE FROM " />
+            <marker date="1459247775261" expanded="true" signature="1708:1799" placeholder="SELECT name,... items" />
+            <marker date="1459247775261" expanded="true" signature="2250:2365" placeholder="UPDATE items... " />
+            <marker date="1459247775261" expanded="true" signature="2496:2512" placeholder="UPDATE items... " />
+            <marker date="1459247775261" expanded="true" signature="2496:2556" placeholder="UPDATE items... " />
+            <marker date="1459247775261" expanded="true" signature="2736:2810" placeholder="SELECT name,... items" />
+            <marker date="1459247775261" expanded="true" signature="2904:3085" placeholder="SELECT name,... items" />
+            <marker date="1459247775261" expanded="true" signature="2904:3094" placeholder="SELECT items... items" />
+            <marker date="1459247775261" expanded="true" signature="3443:3501" placeholder="INSERT INTO categories... " />
+            <marker date="1459247775261" expanded="true" signature="3631:3666" placeholder="DELETE FROM " />
+            <marker date="1459247775261" expanded="true" signature="3631:3668" placeholder="DELETE FROM " />
+            <marker date="1459247775261" expanded="true" signature="3806:3863" placeholder="SELECT name,... categories" />
+            <marker date="1459247775261" expanded="true" signature="3806:3865" placeholder="SELECT id, n... categories" />
+            <marker date="1459247775261" expanded="true" signature="4208:4255" placeholder="UPDATE categ... " />
+            <marker date="1459247775261" expanded="true" signature="4208:4268" placeholder="UPDATE categ... " />
+            <marker date="1459247775261" expanded="true" signature="4395:4439" placeholder="SELECT name,... categories" />
+            <marker date="1459247775261" expanded="true" signature="4632:4725" placeholder="SELECT * FRO... columns" />
+            <marker date="1459247775261" expanded="true" signature="5043:5081" placeholder="SELECT * FRO... admin" />
+            <marker date="1459247775261" expanded="true" signature="5262:5300" placeholder="SELECT * FRO... users" />
+            <marker date="1459247775261" expanded="false" signature="6349:6398" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -772,13 +757,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/views/categories.html" />
     <entry file="file://$PROJECT_DIR$/admin/views/items.html" />
-    <entry file="file://$PROJECT_DIR$/admin/views/itemsMenu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/views/addItemForm.html" />
     <entry file="file://$PROJECT_DIR$/admin/views/categoryAddForm.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -791,50 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/views/categories.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/views/itemEditForm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/views/items.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="35" column="18" selection-start-line="2" selection-start-column="2" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/views/categoriesMenu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="49" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/views/categoryItems.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/views/itemAddForm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -854,97 +788,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="61" selection-start-line="0" selection-start-column="61" selection-end-line="0" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/views/loginForm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="65" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/Logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Libraries.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitDatabase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <marker date="1458982608285" expanded="true" signature="1061:1087" placeholder="DROP TABLE I... " />
-            <marker date="1458982608285" expanded="true" signature="1093:1378" placeholder="CREATE TABLE... items" />
-            <marker date="1458982608285" expanded="true" signature="1384:1551" placeholder="INSERT INTO items... " />
-            <marker date="1458982608285" expanded="true" signature="1785:1816" placeholder="DROP TABLE I... " />
-            <marker date="1458982608285" expanded="true" signature="1822:1980" placeholder="CREATE TABLE... categories" />
-            <marker date="1458982608285" expanded="true" signature="1986:2090" placeholder="INSERT INTO categories... " />
-            <marker date="1458982608285" expanded="true" signature="2399:2425" placeholder="DROP TABLE I... " />
-            <marker date="1458982608285" expanded="true" signature="2431:2725" placeholder="CREATE TABLE... admin" />
-            <marker date="1458982608285" expanded="true" signature="2731:2901" placeholder="INSERT INTO admin... " />
-            <marker date="1458982608285" expanded="true" signature="3129:3155" placeholder="DROP TABLE I... " />
-            <marker date="1458982608285" expanded="true" signature="3161:3455" placeholder="CREATE TABLE... users" />
-            <marker date="1458982608285" expanded="true" signature="3461:3627" placeholder="INSERT INTO users... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/Categories.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4900">
-          <caret line="227" column="0" selection-start-line="227" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
-          <folding>
-            <element signature="n#viewCategoriesMenu#0;n#Categories#0;n#!!top" expanded="false" />
-            <element signature="n#viewCategories#0;n#Categories#0;n#!!top" expanded="false" />
-            <element signature="n#deleteCategory#0;n#Categories#0;n#!!top" expanded="false" />
-            <element signature="n#addCategory#0;n#Categories#0;n#!!top" expanded="false" />
-            <element signature="n#viewAddCategory#0;n#Categories#0;n#!!top" expanded="false" />
-            <element signature="n#editCategory#0;n#Categories#0;n#!!top" expanded="false" />
-            <element signature="n#viewEditCategory#0;n#Categories#0;n#!!top" expanded="false" />
-            <marker date="1458986144811" expanded="true" signature="2220:2233" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/Items.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding>
-            <element signature="n#__construct#0;n#Items#0;n#!!top" expanded="false" />
-            <element signature="n#controller#0;n#Items#0;n#!!top" expanded="false" />
-            <element signature="n#viewItems#0;n#Items#0;n#!!top" expanded="false" />
-            <element signature="n#viewItemsMenu#0;n#Items#0;n#!!top" expanded="false" />
-            <element signature="n#viewAddItem#0;n#Items#0;n#!!top" expanded="false" />
-            <element signature="n#viewEditItem#0;n#Items#0;n#!!top" expanded="false" />
-            <element signature="n#addItem#0;n#Items#0;n#!!top" expanded="false" />
-            <element signature="n#editItem#0;n#Items#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/Body.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -957,80 +804,325 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/authenticate.php">
+    <entry file="file://$PROJECT_DIR$/admin/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="61" selection-start-line="0" selection-start-column="61" selection-end-line="0" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/items.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/itemEditForm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="78" column="25" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/itemAddForm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/categoriesMenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/Login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="100">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/loginForm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/Logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authenticate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/loginForm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/authenticate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/Body.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="80" column="7" selection-start-line="66" selection-start-column="4" selection-end-line="80" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="-150">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/itemsMenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/categoryItems.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/categories.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/Items.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="95" column="29" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="29" />
+          <folding>
+            <element signature="n#viewItems#0;n#Items#0;n#!!top" expanded="false" />
+            <element signature="n#viewItemsMenu#0;n#Items#0;n#!!top" expanded="false" />
+            <element signature="n#viewAddItem#0;n#Items#0;n#!!top" expanded="false" />
+            <element signature="n#viewEditItem#0;n#Items#0;n#!!top" expanded="false" />
+            <element signature="n#addItem#0;n#Items#0;n#!!top" expanded="false" />
+            <element signature="n#editItem#0;n#Items#0;n#!!top" expanded="false" />
+            <element signature="e#1648#2143#0#HTML" expanded="false" />
+            <element signature="e#2191#2542#0#HTML" expanded="false" />
+            <element signature="e#2593#3088#0#HTML" expanded="false" />
+            <element signature="e#3141#3659#0#HTML" expanded="false" />
+            <element signature="e#3713#4336#0#HTML" expanded="false" />
+            <element signature="e#4340#4377#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding>
+            <marker date="1459240269181" expanded="true" signature="603:612" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/orderMenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/checkout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="68" selection-start-line="0" selection-start-column="68" selection-end-line="0" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/Categories.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-728">
+          <caret line="172" column="7" selection-start-line="172" selection-start-column="7" selection-end-line="172" selection-end-column="7" />
+          <folding>
+            <element signature="n#viewCategoriesMenu#0;n#Categories#0;n#!!top" expanded="false" />
+            <element signature="n#viewCategories#0;n#Categories#0;n#!!top" expanded="false" />
+            <element signature="n#deleteCategory#0;n#Categories#0;n#!!top" expanded="false" />
+            <element signature="n#addCategory#0;n#Categories#0;n#!!top" expanded="false" />
+            <element signature="n#viewAddCategory#0;n#Categories#0;n#!!top" expanded="false" />
+            <element signature="n#editCategory#0;n#Categories#0;n#!!top" expanded="false" />
+            <element signature="n#viewEditCategory#0;n#Categories#0;n#!!top" expanded="false" />
+            <marker date="1459239251374" expanded="true" signature="2232:2245" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Body.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-631">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="100">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           <folding>
             <element signature="e#56#70#0#PHP" expanded="false" />
             <element signature="e#250#309#0#PHP" expanded="false" />
             <element signature="e#339#636#0#PHP" expanded="false" />
             <element signature="e#640#1183#0#PHP" expanded="false" />
-            <element signature="e#1187#1357#0#PHP" expanded="false" />
-            <element signature="e#1361#1629#0#PHP" expanded="false" />
-            <element signature="e#1633#2137#0#PHP" expanded="false" />
-            <element signature="e#2141#2341#0#PHP" expanded="false" />
-            <element signature="e#2345#2946#0#PHP" expanded="false" />
-            <element signature="e#2950#3275#0#PHP" expanded="false" />
-            <element signature="e#3279#3452#0#PHP" expanded="false" />
-            <element signature="e#3456#3690#0#PHP" expanded="false" />
-            <element signature="e#3694#4042#0#PHP" expanded="false" />
-            <element signature="e#4046#4249#0#PHP" expanded="false" />
-            <element signature="e#4253#4672#0#PHP" expanded="false" />
-            <element signature="e#4676#4890#0#PHP" expanded="false" />
-            <marker date="1458985008384" expanded="true" signature="999:1106" placeholder="INSERT INTO items... " />
-            <marker date="1458985008384" expanded="true" signature="1234:1268" placeholder="DELETE FROM " />
-            <marker date="1458985008384" expanded="true" signature="1406:1497" placeholder="SELECT name,... items" />
-            <marker date="1458985008384" expanded="true" signature="1948:2063" placeholder="UPDATE items... " />
-            <marker date="1458985008384" expanded="true" signature="2194:2210" placeholder="UPDATE items... " />
-            <marker date="1458985008384" expanded="true" signature="2194:2254" placeholder="UPDATE items... " />
-            <marker date="1458985008384" expanded="true" signature="2434:2508" placeholder="SELECT name,... items" />
-            <marker date="1458985008384" expanded="true" signature="2602:2783" placeholder="SELECT name,... items" />
-            <marker date="1458985008384" expanded="true" signature="2602:2792" placeholder="SELECT items... items" />
-            <marker date="1458985008384" expanded="true" signature="3141:3199" placeholder="INSERT INTO categories... " />
-            <marker date="1458985008384" expanded="true" signature="3329:3364" placeholder="DELETE FROM " />
-            <marker date="1458985008384" expanded="true" signature="3329:3366" placeholder="DELETE FROM " />
-            <marker date="1458985008384" expanded="true" signature="3504:3561" placeholder="SELECT name,... categories" />
-            <marker date="1458985008384" expanded="true" signature="3504:3563" placeholder="SELECT id, n... categories" />
-            <marker date="1458985008384" expanded="true" signature="3906:3953" placeholder="UPDATE categ... " />
-            <marker date="1458985008384" expanded="true" signature="3906:3966" placeholder="UPDATE categ... " />
-            <marker date="1458985008384" expanded="true" signature="4093:4137" placeholder="SELECT name,... categories" />
-            <marker date="1458985008384" expanded="true" signature="4330:4423" placeholder="SELECT * FRO... columns" />
-            <marker date="1458985008384" expanded="true" signature="4741:4779" placeholder="SELECT * FRO... admin" />
-            <marker date="1458985008384" expanded="false" signature="5828:5877" placeholder="..." />
+            <element signature="e#1189#1483#0#PHP" expanded="false" />
+            <element signature="e#1489#1659#0#PHP" expanded="false" />
+            <element signature="e#1663#1931#0#PHP" expanded="false" />
+            <element signature="e#1935#2439#0#PHP" expanded="false" />
+            <element signature="e#2647#3248#0#PHP" expanded="false" />
+            <element signature="e#3252#3577#0#PHP" expanded="false" />
+            <element signature="e#3581#3754#0#PHP" expanded="false" />
+            <element signature="e#3758#3992#0#PHP" expanded="false" />
+            <element signature="e#3996#4344#0#PHP" expanded="false" />
+            <element signature="e#4348#4551#0#PHP" expanded="false" />
+            <element signature="e#4555#4974#0#PHP" expanded="false" />
+            <element signature="e#4978#5192#0#PHP" expanded="false" />
+            <element signature="e#5198#5411#0#PHP" expanded="false" />
+            <marker date="1459247775261" expanded="true" signature="999:1106" placeholder="INSERT INTO items... " />
+            <marker date="1459247775261" expanded="true" signature="1243:1293" placeholder="INSERT INTO orders... " />
+            <marker date="1459247775261" expanded="true" signature="1243:1302" placeholder="INSERT INTO orders... " />
+            <marker date="1459247775261" expanded="true" signature="1536:1570" placeholder="DELETE FROM " />
+            <marker date="1459247775261" expanded="true" signature="1708:1799" placeholder="SELECT name,... items" />
+            <marker date="1459247775261" expanded="true" signature="2250:2365" placeholder="UPDATE items... " />
+            <marker date="1459247775261" expanded="true" signature="2496:2512" placeholder="UPDATE items... " />
+            <marker date="1459247775261" expanded="true" signature="2496:2556" placeholder="UPDATE items... " />
+            <marker date="1459247775261" expanded="true" signature="2736:2810" placeholder="SELECT name,... items" />
+            <marker date="1459247775261" expanded="true" signature="2904:3085" placeholder="SELECT name,... items" />
+            <marker date="1459247775261" expanded="true" signature="2904:3094" placeholder="SELECT items... items" />
+            <marker date="1459247775261" expanded="true" signature="3443:3501" placeholder="INSERT INTO categories... " />
+            <marker date="1459247775261" expanded="true" signature="3631:3666" placeholder="DELETE FROM " />
+            <marker date="1459247775261" expanded="true" signature="3631:3668" placeholder="DELETE FROM " />
+            <marker date="1459247775261" expanded="true" signature="3806:3863" placeholder="SELECT name,... categories" />
+            <marker date="1459247775261" expanded="true" signature="3806:3865" placeholder="SELECT id, n... categories" />
+            <marker date="1459247775261" expanded="true" signature="4208:4255" placeholder="UPDATE categ... " />
+            <marker date="1459247775261" expanded="true" signature="4208:4268" placeholder="UPDATE categ... " />
+            <marker date="1459247775261" expanded="true" signature="4395:4439" placeholder="SELECT name,... categories" />
+            <marker date="1459247775261" expanded="true" signature="4632:4725" placeholder="SELECT * FRO... columns" />
+            <marker date="1459247775261" expanded="true" signature="5043:5081" placeholder="SELECT * FRO... admin" />
+            <marker date="1459247775261" expanded="true" signature="5262:5300" placeholder="SELECT * FRO... users" />
+            <marker date="1459247775261" expanded="false" signature="6349:6398" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+        <state relative-caret-position="200">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InitDatabase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="747">
+          <caret line="210" column="6" selection-start-line="210" selection-start-column="6" selection-end-line="210" selection-end-column="6" />
+          <folding>
+            <element signature="n#__construct#0;n#InitDatabase#0;n#!!top" expanded="false" />
+            <element signature="n#connect#0;n#InitDatabase#0;n#!!top" expanded="false" />
+            <element signature="n#createDatabase#0;n#InitDatabase#0;n#!!top" expanded="false" />
+            <element signature="n#createTables#0;n#InitDatabase#0;n#!!top" expanded="false" />
+            <element signature="n#createCategoriesTable#0;n#InitDatabase#0;n#!!top" expanded="false" />
+            <element signature="n#createAdminTable#0;n#InitDatabase#0;n#!!top" expanded="false" />
+            <element signature="n#createUsersTable#0;n#InitDatabase#0;n#!!top" expanded="false" />
+            <marker date="1459245575867" expanded="true" signature="1093:1119" placeholder="DROP TABLE I... " />
+            <marker date="1459245575867" expanded="true" signature="1125:1410" placeholder="CREATE TABLE... items" />
+            <marker date="1459245575867" expanded="true" signature="1416:1583" placeholder="INSERT INTO items... " />
+            <marker date="1459245575867" expanded="true" signature="1817:1848" placeholder="DROP TABLE I... " />
+            <marker date="1459245575867" expanded="true" signature="1854:2012" placeholder="CREATE TABLE... categories" />
+            <marker date="1459245575867" expanded="true" signature="2018:2122" placeholder="INSERT INTO categories... " />
+            <marker date="1459245575867" expanded="true" signature="2431:2457" placeholder="DROP TABLE I... " />
+            <marker date="1459245575867" expanded="true" signature="2463:2757" placeholder="CREATE TABLE... admin" />
+            <marker date="1459245575867" expanded="true" signature="2763:2933" placeholder="INSERT INTO admin... " />
+            <marker date="1459245575867" expanded="true" signature="3242:3268" placeholder="DROP TABLE I... " />
+            <marker date="1459245575867" expanded="true" signature="3274:3568" placeholder="CREATE TABLE... users" />
+            <marker date="1459245575867" expanded="true" signature="3574:3744" placeholder="INSERT INTO users... " />
+            <marker date="1459245575867" expanded="true" signature="3750:3916" placeholder="INSERT INTO users... " />
+            <marker date="1459245575867" expanded="true" signature="4144:4171" placeholder="DROP TABLE I... " />
+            <marker date="1459245575867" expanded="true" signature="4177:4318" placeholder="CREATE TABLE... orders" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-281">
+          <caret line="107" column="34" selection-start-line="107" selection-start-column="34" selection-end-line="107" selection-end-column="34" />
+          <folding>
+            <element signature="n#viewOrderMenu#0;n#Order#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
