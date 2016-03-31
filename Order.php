@@ -18,13 +18,12 @@ class Order {
       
       case 'checkout':
         $this->viewOrderMenu();
-        $this->db->addOrder($_SESSION['username'], $_SESSION['order']);
+        $this->checkout();
         $this->viewItems();
       break;
 
       case 'viewCheckout':
-        $_SESSION['order'] = $target;
-
+        $this->addItemToCart($target);
         $this->viewCheckout();
       break;
 
@@ -32,6 +31,10 @@ class Order {
         $this->viewOrderMenu();
         $this->viewItems();
 
+      break;
+
+      case 'removeSessionItemFromCart':
+        $this->removeItemFromCart($target);
       break;
 
       default:
@@ -55,121 +58,36 @@ class Order {
     include "views/checkout.html";
   }
 
-  private function addItemToCart(){
+  private function addItemToCart($target){
 
+    if(isset($_SESSION['order'])){
+
+      $count = count($target);
+
+      for($i = 0; $i < $count; $i++){
+        array_push($_SESSION['order'],array_values($target)[$i]);
+      }
+    } else {
+      $_SESSION['order'] = $target;
+    }
+    
   }
 
+  private function removeItemFromCart($target){
+
+    foreach ($_SESSION['order'] as $key => $value ){
+      if($value['shoppingID'] == $target){
+        unset($_SESSION['order'][$key]);
+      }
+    }
+  }
+
+  private function checkout(){
+
+    $this->db->addOrder($_SESSION['username'], $_SESSION['order']);
+    unset($_SESSION['order']);
+  }
 }
 
 ?>
 
-<script>
-
-$(document).ready(function(){
-
-  console.log("muie");
-
-  var order = {};
-  var orderCounter = 1;
-
-  $('.addOrderItemButton').click(function(){
-
-    var sku = this.id.replace( /^\D+/g, '');
-    var name = this.value;
-    order[orderCounter] = {sku, name};
-
-    var checkoutListId = "checkoutListId" + orderCounter;
-
-    $('#orderList').append("<tr>" +
-      "<td>" + name + "<td>" +
-      "<td><button class=removeOrderItemButton type=button id=" + checkoutListId + "> Remove </button> </td>" +
-      "</tr>"
-    );
-
-    orderCounter++;
-
-  });
-
-  $('#orderList').on("click", ".removeOrderItemButton", function(){
-
-    var id = "#" + this.id;
-    var index = this.id.replace( /^\D+/g, '');
-
-    delete order[index];
-
-    $(id).parent().parent().remove();
-
-  });
-
-  $('#checkoutOrderButton').click(function(e){
-
-    console.log(order);
-
-    $.ajax({
-      type:"POST",
-      url:"index.php",
-      data: {
-        'class' : "Order",
-        'action' : 'viewCheckout',
-        'target' : order
-      },
-      success: function(response){
-        console.log("checkout button pressed");
-        $("#content").html(response);
-      },
-      error: function() {
-        alert("Ajax add button error");
-      }
-    });
-
-    order = {};
-
-    e.preventDefault();
-  });
-
-  $('#checkoutConfirmButton').click(function(e){
-
-    $.ajax({
-      type:"POST",
-      url:"index.php",
-      data: {
-        'class' : "Order",
-        'action' : 'checkout'
-      },
-      success: function(response){
-        console.log("checkout confirm button pressed");
-        $("#content").html(response);
-      },
-      error: function() {
-        alert("Ajax add button error");
-      }
-    });
-
-    e.preventDefault();
-  });
-
-  $('#checkoutBackButton').click(function(e){
-
-    $.ajax({
-      type:"POST",
-      url:"index.php",
-      data: {
-        'class' : "Order",
-        'action' : 'view'
-      },
-      success: function(response){
-        console.log("checkout back button pressed");
-        $("#content").html(response);
-      },
-      error: function() {
-        alert("Ajax add button error");
-      }
-    });
-
-  });
-
-
-});
-
-
-</script>

@@ -8,7 +8,7 @@ class Body {
     $this->menu();
     $this->content();
     $this->footer();
-    
+
   }
 
   private function menu(){
@@ -38,6 +38,20 @@ class Body {
 
   private function footer(){
 
+    ?>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript Bootstrap-->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script src="js/body.js"></script>
+
+    <script src="js/order.js"></script>
+
+    <?php
+
   }
 
 }
@@ -46,44 +60,7 @@ class Body {
 
 <script>
 
-$(document).ready(function(){
 
-  $('#loginButton').click(function(){
-
-    $('<form action="index.php" method="POST"> ' +
-      '<input type="hidden" name="class" value="Login">' +
-      '</form>').submit();
-  });
-
-  $('#logoutButton').click(function(){
-
-    $('<form action="index.php" method="POST"> ' +
-      '<input type="hidden" name="class" value="Logout">' +
-      '</form>').submit();
-
-  });
-
-  $('#orderButton').click(function(){
-
-    $.ajax({
-      type:"POST",
-      url:"index.php",
-      data: {
-        'class' : "Order",
-        'action' : "view"
-      },
-      success: function(response){
-        console.log("Order button pressed - Shopping Cart started");
-        $("#content").html(response);
-      },
-      error: function() {
-        alert("Categories button not good up");
-      }
-    });
-  })
-
-
-});
 
 
 </script>
