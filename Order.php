@@ -14,20 +14,22 @@ class Order {
 
   private function controller($action, $target = null){
 
-    $this->viewOrderMenu();
-
     switch ($action){
       
       case 'checkout':
+        $this->viewOrderMenu();
         $this->db->addOrder($_SESSION['username'], $_SESSION['order']);
+        $this->viewItems();
       break;
 
       case 'viewCheckout':
         $_SESSION['order'] = $target;
+
         $this->viewCheckout();
       break;
 
       case 'view':
+        $this->viewOrderMenu();
         $this->viewItems();
 
       break;
@@ -47,10 +49,14 @@ class Order {
     $items = $this->db->viewItems();
     include "views/order.php";
   }
-  
+
   private function viewCheckout(){
 
     include "views/checkout.html";
+  }
+
+  private function addItemToCart(){
+
   }
 
 }
@@ -61,6 +67,8 @@ class Order {
 
 $(document).ready(function(){
 
+  console.log("muie");
+
   var order = {};
   var orderCounter = 1;
 
@@ -68,7 +76,7 @@ $(document).ready(function(){
 
     var sku = this.id.replace( /^\D+/g, '');
     var name = this.value;
-    order[orderCounter] = sku;
+    order[orderCounter] = {sku, name};
 
     var checkoutListId = "checkoutListId" + orderCounter;
 
@@ -114,6 +122,8 @@ $(document).ready(function(){
       }
     });
 
+    order = {};
+
     e.preventDefault();
   });
 
@@ -136,6 +146,26 @@ $(document).ready(function(){
     });
 
     e.preventDefault();
+  });
+
+  $('#checkoutBackButton').click(function(e){
+
+    $.ajax({
+      type:"POST",
+      url:"index.php",
+      data: {
+        'class' : "Order",
+        'action' : 'view'
+      },
+      success: function(response){
+        console.log("checkout back button pressed");
+        $("#content").html(response);
+      },
+      error: function() {
+        alert("Ajax add button error");
+      }
+    });
+
   });
 
 

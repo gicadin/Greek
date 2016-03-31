@@ -1,10 +1,9 @@
 <?php
 
+session_start();
+
 ini_set("display_errors", "1");
 error_reporting(E_ALL);
-
-//echo "POST var: " . var_dump($_POST) . "<br/>";
-//echo "SESSION var: " . var_dump($_SESSION) . "<br/>";
 
 require_once 'Libraries.php';
 require_once 'Database.php';
@@ -25,12 +24,10 @@ function controller($class){
 
     case "Order":
       if( isset($_POST['target'])){
-        echo var_dump($_POST['target']) . "its set";
         $order = new Order($_POST['action'], $_POST['target']);
       } else {
         $order = new Order($_POST['action']);
       }
-
     break;
 
     case "Login":
@@ -45,4 +42,9 @@ function controller($class){
     default:
       echo "Should not see this error - file: index.php   function: controller ( select class)";
   }
+
+  echo "<br/><br/><br/><br/>";
+  echo "<h1>Testing</h1>";
+  echo "POST var: " . var_dump($_POST) . "<br/>";
+  echo "SESSION var: " . var_dump($_SESSION) . "<br/>";
 }

@@ -41,6 +41,21 @@
 
   echo "<table id='orderList'>";
 
+  if (isset($_SESSION['order']) && count($_SESSION['order']) > 0){
+    $length = count($_SESSION['order']);
+    $counter = 0;
+    for ($i = 0; $counter < $length; $i++){
+      if ( isset($_SESSION['order'][$i])){
+        echo "<tr>";
+        echo "<td>" . $_SESSION['order'][$i]['name'] . "</td>";
+        $checkoutListId = "checkoutListId" . ($counter+1000);
+        echo '<td><button class=removeOrderItemButton type=button id="' . $checkoutListId . '"> Remove </button> </td>';
+        echo "</tr>";
+        $counter++;
+      }
+    }
+  }
+
   echo "</table>";
 
 ?>

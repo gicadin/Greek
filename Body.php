@@ -8,7 +8,7 @@ class Body {
     $this->menu();
     $this->content();
     $this->footer();
-
+    
   }
 
   private function menu(){
@@ -45,6 +45,7 @@ class Body {
 ?>
 
 <script>
+
 $(document).ready(function(){
 
   $('#loginButton').click(function(){
