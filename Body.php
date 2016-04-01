@@ -34,31 +34,18 @@ class Body {
 
   private function header(){
 
+    include_once "views/header.html";
   }
 
   private function footer(){
 
-    ?>
-
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-    <!-- Latest compiled JavaScript Bootstrap-->
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-    <script src="js/body.js"></script>
-
-    <script src="js/order.js"></script>
-
-    <?php
-
+    include_once "views/footer.html";
   }
 
 }
 
 ?>
 
-<script>
 
 
 

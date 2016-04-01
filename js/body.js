@@ -7,14 +7,14 @@ $(document).ready(function(){
   $('#loginButton').click(function(){
 
     $('<form action="index.php" method="POST"> ' +
-      '<input type="hidden" name="class" value="Login">' +
-      '</form>').submit();
+      '<input type="hidden" name="class" value="Login" />' +
+      '</form>').append().submit();
   });
 
   $('#logoutButton').click(function(){
 
     $('<form action="index.php" method="POST"> ' +
-      '<input type="hidden" name="class" value="Logout">' +
+      '<input type="hidden" name="class" value="Logout" />' +
       '</form>').submit();
 
   });
