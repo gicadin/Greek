@@ -39,11 +39,31 @@ $(document).ready(function(){
 
   });
 
-  $('#admin_logoutButton').click(function(){
+  $("#admin_logoutButton").click(function(){
 
     $('<form action="index.php" method="POST"> ' +
       '<input type="hidden" name="class" value="Logout">' +
       '</form>').submit();
+
+  });
+
+  $('body').on("click", "#admin_profileButton", function(){
+
+    $.ajax({
+      type:"POST",
+      url:"index.php",
+      data: {
+        'class' : "Profile",
+        'action' : "view"
+      },
+      success: function(response){
+        console.log("Profile button pressed");
+        $("#content").html(response);
+      },
+      error: function() {
+        alert("Categories button not good up");
+      }
+    });
 
   });
 });

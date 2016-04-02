@@ -6,7 +6,6 @@ ini_set("display_errors", "1");
 error_reporting(E_ALL);
 
 require_once '../config.php';
-echo IMAGE_PATH; 
 
 //if ( isset($_SESSION['username']))
 //  echo "Hello " . $_SESSION['username'] . "<br/>";
@@ -30,7 +29,13 @@ if (isset($_SESSION['username']) && isset($_SESSION['type']) && $_SESSION['type'
 
 function controller($class){
 
+  echo "<br/><br/><br/><br/>";
+  echo "<h1>Testing</h1>";
+  echo "POST var: " . var_dump($_POST) . "<br/>";
+  echo "SESSION var: " . var_dump($_SESSION) . "<br/>";
+
   switch ($class) {
+
     case "Items":   
       require_once "Items.php";
       $items = new Items();      
@@ -51,7 +56,15 @@ function controller($class){
 
     break;
 
+    case "Profile":
+      require_once "Profile.php";
+      $profile = new Profile();
+      $profile->controller($_POST['action']);
+
+    break;
+
     case "Logout":
+      require_once "Login.php";
       require_once "Logout.php";
       $user = new Logout();
       $login = new Login();
@@ -62,4 +75,8 @@ function controller($class){
   }
 }
 
+
+
 ?>
+
+

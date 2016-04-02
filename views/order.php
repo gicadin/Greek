@@ -12,6 +12,8 @@
   echo "<th>$columnNames[3]</th>";
   // Description
   echo "<th>$columnNames[6]</th>";
+  // File path
+  echo "<th>Image</th>";
   echo "</tr>";
 
   // Item information
@@ -22,6 +24,7 @@
     echo "<td>" . $items[$i][0] . "</td>";
     echo "<td>" . $items[$i][2] . "</td>";
     echo "<td>" . $items[$i][5] . "</td>";
+    echo "<td><img src='" . IMAGE_PATH . $items[$i][6] . "' /></td>";
 
     // Add Button
     $itemSku = "itemSku" . $items[$i][1];

@@ -13,10 +13,10 @@ class Body {
 
   private function menu(){
 
-    echo "<button type='button' id='admin_itemsButton'> Items </button>";
-    echo "<button type='button' id='admin_categoriesButton'> Categories </button>";
-    echo "<button type='button' id='admin_usersButton'> Users </button>";
+    echo "<button type='button' id='admin_itemsButton'> Items Menu </button>";
+    echo "<button type='button' id='admin_categoriesButton'> Categories Menu </button>";
 
+    echo "<button type='button' id='admin_profileButton'> Hello " . ucfirst($_SESSION['username']). "</button>";
     echo "<button type='button' id='admin_logoutButton'> Logout </button>";
 
   }

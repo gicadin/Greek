@@ -10,3 +10,5 @@
 <script src="js/categories.js"></script>
 
 <script type="text/javascript" src="js/items.js"></script>
+
+<script type="text/javascript" src="js/profile.js"></script>
