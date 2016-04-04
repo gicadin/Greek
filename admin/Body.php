@@ -13,17 +13,20 @@ class Body {
 
   private function menu(){
 
-    echo "<button type='button' id='admin_itemsButton'> Items Menu </button>";
-    echo "<button type='button' id='admin_categoriesButton'> Categories Menu </button>";
-
-    echo "<button type='button' id='admin_profileButton'> Hello " . ucfirst($_SESSION['username']). "</button>";
-    echo "<button type='button' id='admin_logoutButton'> Logout </button>";
-
+    require_once "views/mainMenu.html";
+    
   }
 
   private function content(){
 
-    echo "<div id='content'>";
+    require_once "Dashboard.php";
+
+    echo "<div class='container-fluid'>";
+    echo "<div id='content' class='row-fluid'> ";
+
+      $dash = new Dashboard();
+
+    echo "</div>";
     echo "</div>";
 
   }

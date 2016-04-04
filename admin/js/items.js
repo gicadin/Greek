@@ -98,7 +98,7 @@ $(document).ready(function(){
 
   contentId.on("click", "#admin_editItemFormButton", function(e){
   // $('#admin_editItemFormButton').click(function(e){
-
+    
     var sku = $("#current-sku").html();
 
     var data = $('#itemForm').serializeArray();
@@ -123,6 +123,25 @@ $(document).ready(function(){
 
     e.preventDefault(); 
 
+  });
+
+  contentId.on("click", "#admin_backItemButton", function(){
+
+    $.ajax({
+      type:"POST",
+      url:"index.php",
+      data: {
+        'class' : "Items",
+        'action' : "view"
+      },
+      success: function(response){
+        console.log("Back button pressed");
+        $("#content").html(response);
+      },
+      error: function() {
+        alert("Ajax back not good up");
+      }
+    });
   });
 
 //  $("#itemForm").submit(function(){

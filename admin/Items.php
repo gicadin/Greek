@@ -14,33 +14,39 @@ class Items {
 
   public function controller($action, $target = NULL){
 
-    $this->viewItemsMenu();
+
 
     switch ($action){
       case 'add':
+        $this->viewItemsMenu();
         $this->addItem();
         $this->viewItems();
       break;
 
       case 'addView':
+        $this->viewItemsFormMenu();
         $this->viewAddItem();
       break;
       
       case 'edit':
+        $this->viewItemsMenu();
         $this->editItem($target);
         $this->viewItems();
       break;
 
       case 'editView':
+        $this->viewItemsFormMenu();
         $this->viewEditItem($target);
       break;
       
       case 'delete':
+        $this->viewItemsMenu();
         $this->db->deleteItem($target);
         $this->viewItems();
       break;
       
       case 'view':
+        $this->viewItemsMenu();
         $this->viewItems();
       break;
 
@@ -60,7 +66,12 @@ class Items {
   private function viewItemsMenu(){
 
     include "views/itemsMenu.html";
+  }
+  
+  private function viewItemsFormMenu(){
 
+    include "views/itemsFormMenu.html";
+    
   }
 
   private function viewAddItem(){

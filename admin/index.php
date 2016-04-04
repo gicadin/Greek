@@ -6,11 +6,6 @@ ini_set("display_errors", "1");
 error_reporting(E_ALL);
 
 require_once '../config.php';
-
-//if ( isset($_SESSION['username']))
-//  echo "Hello " . $_SESSION['username'] . "<br/>";
-
-//require_once __DIR__ . '/../Libraries.php';
 require_once __DIR__ . '/../Database.php';
 
 if (isset($_SESSION['username']) && isset($_SESSION['type']) && $_SESSION['type'] == 'admin'){
@@ -29,12 +24,13 @@ if (isset($_SESSION['username']) && isset($_SESSION['type']) && $_SESSION['type'
 
 function controller($class){
 
-  echo "<br/><br/><br/><br/>";
-  echo "<h1>Testing</h1>";
-  echo "POST var: " . var_dump($_POST) . "<br/>";
-  echo "SESSION var: " . var_dump($_SESSION) . "<br/>";
-
   switch ($class) {
+
+    case "Dashboard":
+      require_once "Dashboard.php";
+      $dash = new Dashboard();
+
+    break;
 
     case "Items":   
       require_once "Items.php";
@@ -74,8 +70,6 @@ function controller($class){
       echo "Should not see this error - file: admin/index.php   function: selectClass";
   }
 }
-
-
 
 ?>
 

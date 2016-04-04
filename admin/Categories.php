@@ -12,37 +12,44 @@ class Categories {
   public function controller($action, $target = null) {
     
     // Display Category Menu
-    $this->viewCategoriesMenu();
+
 
     switch ($action) {
       case 'add':
+        $this->viewCategoriesMenu();
         $this->addCategory();
         $this->viewCategories();
       break;
 
       case 'addView':
+        $this->viewCategoriesFormMenu();
         $this->viewAddCategory();
       break;
 
       case 'edit':
+        $this->viewCategoriesMenu();
         $this->editCategory($target);
         $this->viewCategories();
       break;
 
       case 'editView':
+        $this->viewCategoriesFormMenu();
         $this->viewEditCategory($target);
       break;
 
       case 'delete':
+        $this->viewCategoriesMenu();
         $this->deleteCategory($target);
         $this->viewCategories();
       break;
       
       case 'itemsView':
+        $this->viewCategoriesFormMenu();
         $this->viewItems($target);
       break;
 
       case 'view':
+        $this->viewCategoriesMenu();
         $this->viewCategories();
       break;
 
@@ -101,6 +108,11 @@ class Categories {
     $items = $this->db->viewItems($target);
     include "views/categoryItems.php";
     
+  }
+
+  private function viewCategoriesFormMenu(){
+
+    include "views/categoriesFormMenu.html";
   }
 
 }

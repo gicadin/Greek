@@ -1,9 +1,18 @@
-<form method="post" action="authenticate.php" >
+<link rel="stylesheet" href="css/login.css" type="text/css">
 
-  <p><input type="text" name="username" value="" placeholder="username" /></p>
-  <p><input type="password" name="password" value="" placeholder="password" /></p>
-  <p><input type="hidden" name="class" value="Login" /></p>
+<div class="container">
 
-  <p><input type="submit" value="Login" /></p>
 
-</form>
+  <form method="post" action="authenticate.php" class="form-signin" >
+
+    <h2 class="form-signin-heading text-center">Dionysus</h2>
+
+    <input class="input-block-level" type="text" name="username" value="" placeholder="username" />
+    <input class="input-block-level" type="password" name="password" value="" placeholder="password" />
+    <input class="input-block-level" type="hidden" name="class" value="Login" />
+
+    <input class='btn btn-primary' type="submit" value="Login" />
+
+  </form>
+
+</div>

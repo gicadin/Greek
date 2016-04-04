@@ -204,6 +204,7 @@ class Database {
       $password = password_hash($profile['password'], 1);
 
       $profile = array(
+        $profile["user"],
         $profile["fname"],
         $profile["lname"],
         $profile["email"],
@@ -212,13 +213,14 @@ class Database {
         $password
       );
 
-      $sql = "UPDATE admin SET fname = ?, lname = ?, email = ?, address = ?, telephone = ?, password = ?";
+      $sql = "UPDATE admin SET user = ?, fname = ?, lname = ?, email = ?, address = ?, telephone = ?, password = ?";
       $stmt = $this->db->prepare($sql);
       $stmt->execute($profile);
 
     } else {
 
       $profile = array(
+        $profile["user"],
         $profile["fname"],
         $profile["lname"],
         $profile["email"],
@@ -226,29 +228,29 @@ class Database {
         $profile["telephone"]
       );
 
-      $sql = "UPDATE admin SET fname = ?, lname = ?, email = ?, address = ?, telephone = ?";
+      $sql = "UPDATE admin SET user = ?, fname = ?, lname = ?, email = ?, address = ?, telephone = ?";
       $stmt = $this->db->prepare($sql);
       $stmt->execute($profile);
 
     }
   }
 
-  public function editAdminPassword($user, $profile){
-
-    if ( isset($profile['fname']))
-      $profile = array(
-        $profile["fname"],
-        $profile["lname"],
-        $profile["email"],
-        $profile["address"],
-        $profile["telephone"]
-      );
-
-    $sql = "UPDATE admin SET fname = ?, lname = ?, email = ?, address = ?, telephone = ?";
-    $stmt = $this->db->prepare($sql);
-    $stmt->execute($profile);
-  }
-  
+//  public function editAdminPassword($user, $profile){
+//
+//    if ( isset($profile['fname']))
+//      $profile = array(
+//        $profile["fname"],
+//        $profile["lname"],
+//        $profile["email"],
+//        $profile["address"],
+//        $profile["telephone"]
+//      );
+//
+//    $sql = "UPDATE admin SET fname = ?, lname = ?, email = ?, address = ?, telephone = ?";
+//    $stmt = $this->db->prepare($sql);
+//    $stmt->execute($profile);
+//  }
+//
   public function getUser($user){
     $stmt = $this->db->prepare("SELECT * FROM users WHERE user = :user");
     $stmt->bindParam(':user', $user);

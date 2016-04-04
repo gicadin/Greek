@@ -1,6 +1,10 @@
+
 <?php
 
-  echo "<table>";
+  echo "<div class='col-md-9'>";
+  echo "<div class='table-responsive'>";
+
+  echo "<table class='table table-striped table-hover'>";
 
   // Table Column names
   $columnNames = $this->db->getColumnNames("items");
@@ -34,5 +38,8 @@
     echo "</tr>";
   }
   echo "</table>";
+
+echo "</div>";
+echo "</div>";
 
 ?>

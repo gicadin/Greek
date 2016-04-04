@@ -5,6 +5,14 @@
 
       <!-- Text input-->
       <div class="form-group">
+        <label class="col-md-4 control-label" for="user">User Name</label>
+        <div class="col-md-4">
+          <input id="user" name="user" type="text" class="form-control input-md" value="<?php echo $profile['user']; ?>">
+        </div>
+      </div>
+
+      <!-- Text input-->
+      <div class="form-group">
         <label class="col-md-4 control-label" for="fname">First Name</label>
         <div class="col-md-4">
           <input id="fname" name="fname" type="text" class="form-control input-md" value="<?php echo $profile['fname']; ?>">
@@ -54,8 +62,7 @@
       <!-- Submit button -->
       <div class="form-group">
         <div class="col-md-4 col-md-offset-4">
-          <input id="admin_profileEditFormButton" type="submit" value="Apply">
-          <button>Cancel</button>
+          <input class="btn btn-primary" id="admin_profileEditFormButton" type="submit" value="Apply">
         </div>
       </div>
 

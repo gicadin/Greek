@@ -1,3 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Niconne);
+
 .hidden {
   visibility: hidden;
+}
+
+.text-banner h2 {
+
+  font-family: 'Niconne', cursive;
+  font-size: 80px;
+  text-align: center;
+}
+
+.text-banner p {
+  font-family: "Lato", sans-serif;
+  color: #ccc;
+  font-size: 24px;
+  text-align: center;
+}
+
+body {
+  background-color: white;
+}
+
+.nav-header {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
 }

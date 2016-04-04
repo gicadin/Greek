@@ -146,4 +146,23 @@ $(document).ready(function(){
     });
   });
 
+  contentId.on("click", "#backCategoryButton", function(){
+
+    $.ajax({
+      type:"POST",
+      url:"index.php",
+      data: {
+        'class' : "Categories",
+        'action' : "view"
+      },
+      success: function(response){
+        console.log("Back button pressed");
+        $("#content").html(response);
+      },
+      error: function() {
+        alert("Ajax back not good up");
+      }
+    });
+  });
+
 });

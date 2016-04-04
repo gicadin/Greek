@@ -1,4 +1,29 @@
 $(document).ready(function(){
+
+  $('#mainMenu').on('click', 'li', function() {
+    $('#navbar-collapse-mainMenu ul li.active').removeClass('active');
+    $(this).addClass('active');
+  });
+  
+  $('#admin_dashboardButton').click(function(){
+
+    $.ajax({
+      type: "POST",
+      url : "index.php",
+      data: {
+        'class' : 'Dashboard'
+      },
+      success: function(response){
+        console.log("home button");
+        $("#content").html(response);
+      },
+      error: function() {
+        alert("something not good up");
+      }
+    });
+
+  });
+
   $('#admin_itemsButton').click(function(){
 
     $.ajax({
