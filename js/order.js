@@ -9,7 +9,9 @@ $(document).ready(function(){
   var order = {};
   var orderCounter = 1;
 
-  contentId.on("click", ".addOrderItemButton", function(){
+  contentId.on("click", ".addOrderItemButton", function(e){
+
+    e.preventDefault();
 
     var sku = this.id.replace( /^\D+/g, '');
     var name = this.value;
@@ -20,8 +22,8 @@ $(document).ready(function(){
     var checkoutListId = "checkoutListId" + orderCounter;
 
     $('#orderAddedItemList').append("<tr>" +
+      "<td><a class='removeOrderItemButton fa fa-minus-circle' type=button id=" + checkoutListId + "> </a> </td>" +
       "<td>" + name + "<td>" +
-      "<td><button class=removeOrderItemButton type=button id=" + checkoutListId + "> Remove </button> </td>" +
       "</tr>"
     );
 
@@ -63,7 +65,6 @@ $(document).ready(function(){
     console.log(order);
 
   });
-
 
   contentId.on('click', '#checkoutOrderButton', function(e){
 
@@ -113,7 +114,8 @@ $(document).ready(function(){
     e.preventDefault();
   });
 
-  $('#checkoutBackButton').click(function(e){
+  contentId.on('click', '#checkoutBackButton', function(e){
+  // $('#checkoutBackButton').click(function(e){
 
     $.ajax({
       type:"POST",
@@ -130,6 +132,30 @@ $(document).ready(function(){
         alert("Ajax add button error");
       }
     });
+
+    e.preventDefault();
+
+  });
+
+  contentId.on('click', '#resetOrderButton', function(e){
+
+    $.ajax({
+      type:"POST",
+      url:"index.php",
+      data: {
+        'class' : "Order",
+        'action' : 'resetCart'
+      },
+      success: function(response){
+        console.log("checkout back button pressed");
+        $("#content").html(response);
+      },
+      error: function() {
+        alert("Ajax add button error");
+      }
+    });
+
+    order = {};
 
   });
 

@@ -97,6 +97,15 @@ class Database {
     $stmt->execute(array(":sku" => $sku));
   }
 
+  public function getItemPrice($sku){
+
+    $sql = "SELECT price FROM items WHERE sku = :sku";
+    $stmt = $this->db->prepare($sql);
+    $stmt->execute(array(":sku" => $sku));
+
+    return $stmt->fetch(PDO::FETCH_NUM);
+  }
+
   public function viewItems($category = null){
 
     if ( $category == null){
@@ -110,7 +119,17 @@ class Database {
       $stmt->execute(array(":category" => $category));
     }
 
-    return $stmt->fetchAll(PDO::FETCH_NUM); 
+    return $stmt->fetchAll(PDO::FETCH_NUM);
+
+  }
+
+  public function viewItemsAssoc(){
+
+    $sql = "SELECT name, sku, price, category, menu, description, file_path FROM items";
+    $stmt = $this->db->prepare($sql);
+    $stmt->execute();
+
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
 
   }
 
@@ -259,16 +278,27 @@ class Database {
     return $stmt->fetch(PDO::FETCH_ASSOC);
   }
 
-  public function addOrder($user, $order){
+  public function addOrder($user, $order, $total, $date){
 
-    $sql = "INSERT INTO orders ( user, orders) VALUES ( :user, :orders);";
+    $sql = "INSERT INTO orders ( user, orders, totalPrice, date) VALUES ( :user, :orders, :total, :date);";
     $stmt = $this->db->prepare($sql);
 
     // Convert Array to String
     //$string = implode(",", $order);
     $string = serialize($order);
 
-    $stmt->execute(array(":user" => $user, ":orders" => $string));
+    $stmt->execute(array(":user" => $user, ":orders" => $string, ":total" => $total, ":date" => $date));
+  }
+
+  public function countOrders(){
+
+    $stmt = $this->db->prepare("SELECT count(*) FROM orders WHERE date = CURDATE();");
+    $stmt->execute();
+
+    $orders = $stmt->fetch();
+
+    return $orders[0]; 
+
   }
 
 }

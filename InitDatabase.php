@@ -207,7 +207,9 @@ class InitDatabase{
     CREATE TABLE orders ( 
       id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
       user VARCHAR(255) NOT NULL,
-      orders VARCHAR(255)
+      orders VARCHAR(255),
+      totalPrice INT(20),
+      date DATE
     );
     ";
 

@@ -1,0 +1,64 @@
+.card {
+  position: relative;
+  display: block;
+  margin-bottom: 1.45rem;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: .50rem;
+}
+
+.card-block{
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  margin-top: 15px;
+  line-height: 28px;
+  color: #888;
+  padding: 1.25rem;
+}
+
+.card-title {
+
+  color: black;
+  font-size: 22px;
+  margin-bottom: .75rem;
+}
+
+.card-text {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.card-img-top {
+  height: 250px;
+  width: 100%;
+  display: block;
+  border-radius: .50rem .50rem 0 0;
+}
+
+.addOrderItemButton{
+  float: right;
+}
+
+.menuSubTitle {
+  padding-left: 31px;
+}
+
+.removeOrderItemButton{
+  color: red;
+}
+
+.removeOrderItemButton:hover{
+  color: darkgray;
+  text-decoration: none;
+
+}
+
+#orderAddedItemList.table>tbody>tr>td  {
+  border-top: none;
+}
+
+#checkoutItemList.table>tbody>tr>td,
+#checkoutItemList.table>tbody>tr>th {
+  border-top: none;
+}
+

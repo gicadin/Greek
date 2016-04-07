@@ -1,0 +1,54 @@
+<header class="headbar">
+  <div class="fullbg">
+    <div class="row">
+
+      <div id='mainMenuLogo' class="col-md-2 col-md-offset-5 col-sm-6 col-sm-offset-3 col-xs-8">
+        <h1 class="logo"> Dionysus </h1>
+      </div>
+
+      <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12">
+        <nav class="navi navbar navbar-default" role="navigation">
+
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed navb" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="menubox collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav menu">
+
+              <li><a id='homeButton' href="#" > Home </a></li>
+              <li><a id='upcomingEventsButton' href="#" > Upcoming Events </a></li>
+              <li><a id='menuButton' href="#">Menu</a></li>
+
+              <?php
+                if ( isset($_SESSION['username']) && isset($_SESSION['type']) && $_SESSION['type'] == 'user'){
+                  echo "<li><a id='orderButton' href='#' > Order </a></li>";
+                  echo "<li><a id='logoutButton' href='#' > Logout </a></li>";
+                } else {
+                  echo "<li><a id='loginButton' href='#' > Login </a></li>";
+                }
+              ?>
+
+            </ul>
+          </div>
+
+        </nav>
+      </div>
+
+      <div id='mainMenuTitle' class="col-md-8 col-md-offset-2 col-xs-12">
+        <div  class="text-center text-banner">
+          <h2>Introducing Dionysus</h2>
+          <p>Greek food and wine</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</header>

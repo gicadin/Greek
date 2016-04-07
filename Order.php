@@ -23,8 +23,13 @@ class Order {
       break;
 
       case 'viewCheckout':
-        $this->addItemToCart($target);
-        $this->viewCheckout();
+        if ( $this->checkSchedule() ){
+          $this->addItemToCart($target);
+          $this->viewCheckout();
+        } else {
+          $this->viewCheckoutFull();
+        }
+
       break;
 
       case 'view':
@@ -35,6 +40,12 @@ class Order {
 
       case 'removeSessionItemFromCart':
         $this->removeItemFromCart($target);
+      break;
+
+      case 'resetCart':
+        $this->resetCart();
+        $this->viewOrderMenu();
+        $this->viewItems();
       break;
 
       default:
@@ -55,7 +66,13 @@ class Order {
 
   private function viewCheckout(){
 
-    include "views/checkout.html";
+    include "views/orderCheckoutMenu.html";
+    include "views/orderCheckout.php";
+  }
+  
+  private function viewCheckoutFull(){
+    
+    include "views/orderCheckoutFull.html";
   }
 
   private function addItemToCart($target){
@@ -84,9 +101,23 @@ class Order {
 
   private function checkout(){
 
-    $this->db->addOrder($_SESSION['username'], $_SESSION['order']);
+    $this->db->addOrder($_SESSION['username'], $_SESSION['order'], $_SESSION['totalPrice'], $_SESSION['date']);
     unset($_SESSION['order']);
   }
+
+  private function resetCart(){
+    unset($_SESSION['order']);
+  }
+  
+  private function checkSchedule(){
+    $orders = $this->db->countOrders();
+    $maxOrders = 7;
+    if ( $orders < $maxOrders )
+      return true;
+    else 
+      return false;
+  }
+  
 }
 
 ?>

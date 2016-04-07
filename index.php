@@ -5,7 +5,7 @@ session_start();
 ini_set("display_errors", "1");
 error_reporting(E_ALL);
 
-require_once 'Libraries.php';
+//require_once 'Libraries.php';
 require_once 'Database.php';
 
 if (isset($_POST['class'])){
@@ -18,6 +18,16 @@ if (isset($_POST['class'])){
 function controller($class){
 
   switch ($class) {
+
+    case "Home":
+      include "views/home.html";
+    break;
+
+    case "Menu":
+      require_once 'Menu.php';
+      $menu = new Menu($_POST['action']);
+
+    break;
 
     case "Order":
       require_once 'Order.php';
@@ -44,9 +54,5 @@ function controller($class){
     default:
       echo "Should not see this error - file: index.php   function: controller ( select class)";
   }
-
-  echo "<br/><br/><br/><br/>";
-  echo "<h1>Testing</h1>";
-  echo "POST var: " . var_dump($_POST) . "<br/>";
-  echo "SESSION var: " . var_dump($_SESSION) . "<br/>";
+  
 }
